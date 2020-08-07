@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace EjemploPoo
+
 {
     public class Cafetera {
         public int minCafe = 2;
