@@ -1,0 +1,7 @@
+C:\Users\Luis\Desktop\proyecto udemy\3 -16\Variables\Variables\bin\Debug\Variables.exe.config
+C:\Users\Luis\Desktop\proyecto udemy\3 -16\Variables\Variables\bin\Debug\Variables.exe
+C:\Users\Luis\Desktop\proyecto udemy\3 -16\Variables\Variables\bin\Debug\Variables.pdb
+C:\Users\Luis\Desktop\proyecto udemy\3 -16\Variables\Variables\obj\Debug\Variables.csprojAssemblyReference.cache
+C:\Users\Luis\Desktop\proyecto udemy\3 -16\Variables\Variables\obj\Debug\Variables.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\proyecto udemy\3 -16\Variables\Variables\obj\Debug\Variables.exe
+C:\Users\Luis\Desktop\proyecto udemy\3 -16\Variables\Variables\obj\Debug\Variables.pdb

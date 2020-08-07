@@ -1,0 +1,7 @@
+C:\Users\Luis\Desktop\proyecto udemy\3-8\EjemploPoo\EjemploPoo\bin\Debug\EjemploPoo.exe.config
+C:\Users\Luis\Desktop\proyecto udemy\3-8\EjemploPoo\EjemploPoo\bin\Debug\EjemploPoo.exe
+C:\Users\Luis\Desktop\proyecto udemy\3-8\EjemploPoo\EjemploPoo\bin\Debug\EjemploPoo.pdb
+C:\Users\Luis\Desktop\proyecto udemy\3-8\EjemploPoo\EjemploPoo\obj\Debug\EjemploPoo.csprojAssemblyReference.cache
+C:\Users\Luis\Desktop\proyecto udemy\3-8\EjemploPoo\EjemploPoo\obj\Debug\EjemploPoo.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\proyecto udemy\3-8\EjemploPoo\EjemploPoo\obj\Debug\EjemploPoo.exe
+C:\Users\Luis\Desktop\proyecto udemy\3-8\EjemploPoo\EjemploPoo\obj\Debug\EjemploPoo.pdb

@@ -1,0 +1,6 @@
+C:\Users\Luis\Desktop\proyecto udemy\7-28\Modificadores\Libreria\bin\Debug\Libreria.dll
+C:\Users\Luis\Desktop\proyecto udemy\7-28\Modificadores\Libreria\bin\Debug\Libreria.pdb
+C:\Users\Luis\Desktop\proyecto udemy\7-28\Modificadores\Libreria\obj\Debug\Libreria.csprojAssemblyReference.cache
+C:\Users\Luis\Desktop\proyecto udemy\7-28\Modificadores\Libreria\obj\Debug\Libreria.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\proyecto udemy\7-28\Modificadores\Libreria\obj\Debug\Libreria.dll
+C:\Users\Luis\Desktop\proyecto udemy\7-28\Modificadores\Libreria\obj\Debug\Libreria.pdb
