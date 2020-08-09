@@ -1,7 +1,0 @@
-C:\Users\Luis\Desktop\proyecto udemy\5-20\Condicionales\Condicionales\bin\Debug\Condicionales.exe.config
-C:\Users\Luis\Desktop\proyecto udemy\5-20\Condicionales\Condicionales\bin\Debug\Condicionales.exe
-C:\Users\Luis\Desktop\proyecto udemy\5-20\Condicionales\Condicionales\bin\Debug\Condicionales.pdb
-C:\Users\Luis\Desktop\proyecto udemy\5-20\Condicionales\Condicionales\obj\Debug\Condicionales.csprojAssemblyReference.cache
-C:\Users\Luis\Desktop\proyecto udemy\5-20\Condicionales\Condicionales\obj\Debug\Condicionales.csproj.CoreCompileInputs.cache
-C:\Users\Luis\Desktop\proyecto udemy\5-20\Condicionales\Condicionales\obj\Debug\Condicionales.exe
-C:\Users\Luis\Desktop\proyecto udemy\5-20\Condicionales\Condicionales\obj\Debug\Condicionales.pdb

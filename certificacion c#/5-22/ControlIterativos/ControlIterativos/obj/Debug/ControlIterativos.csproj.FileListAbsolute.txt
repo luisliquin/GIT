@@ -1,7 +1,0 @@
-C:\Users\Luis\Desktop\proyecto udemy\5-22\ControlIterativos\ControlIterativos\bin\Debug\ControlIterativos.exe.config
-C:\Users\Luis\Desktop\proyecto udemy\5-22\ControlIterativos\ControlIterativos\bin\Debug\ControlIterativos.exe
-C:\Users\Luis\Desktop\proyecto udemy\5-22\ControlIterativos\ControlIterativos\bin\Debug\ControlIterativos.pdb
-C:\Users\Luis\Desktop\proyecto udemy\5-22\ControlIterativos\ControlIterativos\obj\Debug\ControlIterativos.csprojAssemblyReference.cache
-C:\Users\Luis\Desktop\proyecto udemy\5-22\ControlIterativos\ControlIterativos\obj\Debug\ControlIterativos.csproj.CoreCompileInputs.cache
-C:\Users\Luis\Desktop\proyecto udemy\5-22\ControlIterativos\ControlIterativos\obj\Debug\ControlIterativos.exe
-C:\Users\Luis\Desktop\proyecto udemy\5-22\ControlIterativos\ControlIterativos\obj\Debug\ControlIterativos.pdb

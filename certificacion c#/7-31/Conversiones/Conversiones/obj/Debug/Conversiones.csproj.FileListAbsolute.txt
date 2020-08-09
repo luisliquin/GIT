@@ -1,7 +1,0 @@
-C:\Users\Luis\Desktop\proyecto udemy\7-31\Conversiones\Conversiones\bin\Debug\Conversiones.exe.config
-C:\Users\Luis\Desktop\proyecto udemy\7-31\Conversiones\Conversiones\bin\Debug\Conversiones.exe
-C:\Users\Luis\Desktop\proyecto udemy\7-31\Conversiones\Conversiones\bin\Debug\Conversiones.pdb
-C:\Users\Luis\Desktop\proyecto udemy\7-31\Conversiones\Conversiones\obj\Debug\Conversiones.csprojAssemblyReference.cache
-C:\Users\Luis\Desktop\proyecto udemy\7-31\Conversiones\Conversiones\obj\Debug\Conversiones.csproj.CoreCompileInputs.cache
-C:\Users\Luis\Desktop\proyecto udemy\7-31\Conversiones\Conversiones\obj\Debug\Conversiones.exe
-C:\Users\Luis\Desktop\proyecto udemy\7-31\Conversiones\Conversiones\obj\Debug\Conversiones.pdb
