@@ -17,18 +17,38 @@ namespace Aplicacion {
         }
 
         private void btnIniciar_Click(object sender, EventArgs e) {
-            CorrerProceso();
+            Thread hilo = new Thread(new ThreadStart(CorrerProceso));
+            hilo.Start();            
         }
+
+        delegate void DelegadoCambiarProgreso(int valor);
+
         private void CambiarProgreso(int valor) {
-            progressBar.Value=valor;
+            if (this.InvokeRequired) {
+                DelegadoCambiarProgreso delegado = new DelegadoCambiarProgreso(CambiarProgreso);
+                object[] parametros = new object[]{valor};
+                this.Invoke(delegado, parametros);
+            }
+            else {
+                progressBar.Value=valor;
+            }            
         }
 
         private void CorrerProceso() {
+            
             for (int c = 1; c <= progressBar.Maximum; c++) {
                 Thread.Sleep(1000);
                 CambiarProgreso(c);
             }
             Console.WriteLine("proceso finalizado");
+        }
+
+        private void Form1_Load(object sender, EventArgs e) {
+
+        }
+
+        private void btnMensaje_Click(object sender, EventArgs e) {
+            MessageBox.Show("mensaje |||");
         }
     }
 
