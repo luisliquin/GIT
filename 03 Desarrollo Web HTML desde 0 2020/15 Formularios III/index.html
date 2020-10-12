@@ -2,10 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formularios III - select - textarea</title>
 </head>
 <body>
+    <form action="#">
+        <label for="languages">Lenguajes de marcado</label>
+        <select size="7" multiple name="" id="languages">
+        <optgroup label="Lenguajes de marcado">
+            <option value="html">HTML</option>
+            <option value="xml">XML</option>
+        </optgroup>
+        <optgroup label="Lenguajes de diseño">
+            <option value="css">CSS</option>
+        </optgroup>
+        <optgroup label="Lenguajes de programacion">
+            <option value="js">JS</option>
+        </optgroup>
+    </select>
+    <label for="text">Mensaje</label>
     
+    <textarea name="" id="text" 
+        cols="10" rows="10"></textarea>    
+    </form>
 </body>
 </html>
