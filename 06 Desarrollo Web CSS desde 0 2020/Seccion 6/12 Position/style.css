@@ -1,0 +1,13 @@
+.title{
+    text-align: center;
+    font-size: 3em;
+}
+
+p{
+    font-size: 2em;
+}
+
+.parrafo-1{
+    /*visibility: hidden;*/
+    display: none;
+}
