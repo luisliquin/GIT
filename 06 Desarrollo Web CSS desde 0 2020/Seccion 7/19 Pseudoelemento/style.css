@@ -1,0 +1,28 @@
+.title::first-letter{
+    color: red;
+    font-size: 2em;
+}
+
+.text::first-line{
+    color: blue;
+}
+
+.inline::first-letter{
+    color: red;
+    font-size: 2em;
+}
+
+/*retirado de la especificacion*/
+.text::selection{
+    color: lime;
+    background: red;
+}
+
+.dolar::before, 
+.dolar::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: red;
+    display: block;
+}

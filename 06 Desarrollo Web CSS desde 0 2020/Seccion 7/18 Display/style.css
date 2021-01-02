@@ -1,0 +1,9 @@
+.inline{
+    background: lime;
+    /*display: none;*/
+}
+
+.block{
+    background: yellow;
+    /*margin: 0;*/
+}
