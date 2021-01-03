@@ -1,0 +1,27 @@
+/*.title{
+    text-transform: capitalize;
+}
+
+.paragraph{
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.link{
+    text-decoration: none;
+}*/
+
+.box{
+    width: 150px;
+    height: 150px;
+    background: red;
+}
+
+.box__item{
+    text-align: center;
+    line-height: 100px;
+}
+
+.paragraph{
+    letter-spacing: 10px;
+}
