@@ -1,0 +1,39 @@
+body{
+    background-color: #333;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: .5em;
+    text-align: center;
+    line-height: 200px;
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+.box--color{
+    color: violet;
+    background-color: aquamarine;
+}
+
+.box--rgb{
+    color: rgb(255, 125, 4);
+}
+
+.box--rgba{
+    background-color: rgba(255,125,4,.4)
+}
+
+.box--hexa{
+    background-color: #f0f;
+}
+
+.box--hsl{
+    background-color: hsl(120, 100%, 80%);
+}
+
+.box--hsla{
+    background-color:  hsla(120, 100%, 80%, .5);;
+}
