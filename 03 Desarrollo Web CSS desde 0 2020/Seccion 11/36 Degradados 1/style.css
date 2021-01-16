@@ -1,7 +1,7 @@
 .box{
     width: 200px;
     height: 200px;
-    border: 3px solid black;
-    margin: em auto;
-    background-image: radial-gradient(red, blue);
+    /*border: 3px solid black;*/
+    margin: 2em auto;
+    background-image: radial-gradient(ellipse 100px 50px at bottom, transparent 50%, blue 50%);
 }
