@@ -1,7 +1,4 @@
 body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
     color: #eee;
     font-family: sans-serif;
@@ -11,14 +8,16 @@ body{
 
 .grid-container{  
     display: grid; 
-    grid-template-columns: repeat(2, 40px 50px 40px);
+    grid-gap: 2px;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    /*grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));*/
 }
 
 .grid-item{
-    border: 1px solid;
+    border: .5px solid;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    padding: 1rem 0;
 }
