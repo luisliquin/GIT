@@ -11,12 +11,12 @@ body{
     grid-gap: 10px;
     height: 80vh;
     border: 3px solid yellow;
-    grid-template-columns: repeat(3, 150px);
-    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    /*justify-items: center;
     align-items: center;
-    /*place-items: center end;*/
+    place-items: center end;
     justify-content: space-evenly;
-    /*align-content: space-evenly;
+    align-content: space-evenly;
     place-content: center end;*/
 }
 
@@ -29,8 +29,10 @@ body{
     padding: 1rem;
 }
 
-.grid-item:first-child{
+.grid-item:nth-child(2){
     /*align-self: stretch;
-    justify-self: stretch;*/
-    place-self: start center;
+    justify-self: stretch;
+    place-self: start center;*/
+    background-color: royalblue;
+    order: -1;
 }
