@@ -1,0 +1,10 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 10\LecturaEscritura\LecturaEscritura\bin\Debug\LecturaEscritura.exe.config
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 10\LecturaEscritura\LecturaEscritura\bin\Debug\LecturaEscritura.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 10\LecturaEscritura\LecturaEscritura\bin\Debug\LecturaEscritura.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 10\LecturaEscritura\LecturaEscritura\obj\Debug\LecturaEscritura.csprojAssemblyReference.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 10\LecturaEscritura\LecturaEscritura\obj\Debug\LecturaEscritura.Form1.resources
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 10\LecturaEscritura\LecturaEscritura\obj\Debug\LecturaEscritura.Properties.Resources.resources
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 10\LecturaEscritura\LecturaEscritura\obj\Debug\LecturaEscritura.csproj.GenerateResource.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 10\LecturaEscritura\LecturaEscritura\obj\Debug\LecturaEscritura.csproj.CoreCompileInputs.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 10\LecturaEscritura\LecturaEscritura\obj\Debug\LecturaEscritura.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 10\LecturaEscritura\LecturaEscritura\obj\Debug\LecturaEscritura.pdb

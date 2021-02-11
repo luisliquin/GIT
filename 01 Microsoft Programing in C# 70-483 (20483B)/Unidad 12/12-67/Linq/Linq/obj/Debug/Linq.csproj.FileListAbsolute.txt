@@ -1,0 +1,7 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-67\Linq\Linq\bin\Debug\Linq.exe.config
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-67\Linq\Linq\bin\Debug\Linq.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-67\Linq\Linq\bin\Debug\Linq.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-67\Linq\Linq\obj\Debug\Linq.csprojAssemblyReference.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-67\Linq\Linq\obj\Debug\Linq.csproj.CoreCompileInputs.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-67\Linq\Linq\obj\Debug\Linq.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-67\Linq\Linq\obj\Debug\Linq.pdb

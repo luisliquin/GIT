@@ -1,0 +1,13 @@
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\bin\Debug\netcoreapp3.1\PropiedadesMetodos.exe
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\bin\Debug\netcoreapp3.1\PropiedadesMetodos.deps.json
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\bin\Debug\netcoreapp3.1\PropiedadesMetodos.runtimeconfig.json
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\bin\Debug\netcoreapp3.1\PropiedadesMetodos.runtimeconfig.dev.json
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\bin\Debug\netcoreapp3.1\PropiedadesMetodos.dll
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\bin\Debug\netcoreapp3.1\PropiedadesMetodos.pdb
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\obj\Debug\netcoreapp3.1\PropiedadesMetodos.csprojAssemblyReference.cache
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\obj\Debug\netcoreapp3.1\PropiedadesMetodos.AssemblyInfoInputs.cache
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\obj\Debug\netcoreapp3.1\PropiedadesMetodos.AssemblyInfo.cs
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\obj\Debug\netcoreapp3.1\PropiedadesMetodos.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\obj\Debug\netcoreapp3.1\PropiedadesMetodos.dll
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\obj\Debug\netcoreapp3.1\PropiedadesMetodos.pdb
+C:\Users\Luis\Desktop\proyecto udemy\6-25\PropiedadesMetodos\PropiedadesMetodos\obj\Debug\netcoreapp3.1\PropiedadesMetodos.genruntimeconfig.cache

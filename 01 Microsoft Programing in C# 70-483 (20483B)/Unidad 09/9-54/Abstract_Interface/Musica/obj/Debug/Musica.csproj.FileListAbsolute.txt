@@ -1,0 +1,5 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 9\9-54\Abstract_Interface\Musica\obj\Debug\Musica.csproj.CoreCompileInputs.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 9\9-54\Abstract_Interface\Musica\bin\Debug\Musica.dll
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 9\9-54\Abstract_Interface\Musica\bin\Debug\Musica.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 9\9-54\Abstract_Interface\Musica\obj\Debug\Musica.dll
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\unidad 9\9-54\Abstract_Interface\Musica\obj\Debug\Musica.pdb

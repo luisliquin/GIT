@@ -1,0 +1,5 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Operacion\bin\Debug\Operacion.dll
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Operacion\bin\Debug\Operacion.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Operacion\obj\Debug\Operacion.csproj.CoreCompileInputs.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Operacion\obj\Debug\Operacion.dll
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Operacion\obj\Debug\Operacion.pdb

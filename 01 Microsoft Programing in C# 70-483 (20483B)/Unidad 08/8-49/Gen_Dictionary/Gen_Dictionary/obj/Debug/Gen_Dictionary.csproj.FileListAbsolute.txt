@@ -1,0 +1,7 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Gen_Dictionary\Gen_Dictionary\bin\Debug\Gen_Dictionary.exe.config
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Gen_Dictionary\Gen_Dictionary\bin\Debug\Gen_Dictionary.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Gen_Dictionary\Gen_Dictionary\bin\Debug\Gen_Dictionary.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Gen_Dictionary\Gen_Dictionary\obj\Debug\Gen_Dictionary.csprojAssemblyReference.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Gen_Dictionary\Gen_Dictionary\obj\Debug\Gen_Dictionary.csproj.CoreCompileInputs.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Gen_Dictionary\Gen_Dictionary\obj\Debug\Gen_Dictionary.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Gen_Dictionary\Gen_Dictionary\obj\Debug\Gen_Dictionary.pdb

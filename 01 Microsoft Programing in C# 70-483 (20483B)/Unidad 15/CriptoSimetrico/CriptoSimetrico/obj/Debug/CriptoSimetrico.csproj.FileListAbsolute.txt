@@ -1,0 +1,10 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 15\CriptoSimetrico\CriptoSimetrico\bin\Debug\CriptoSimetrico.exe.config
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 15\CriptoSimetrico\CriptoSimetrico\bin\Debug\CriptoSimetrico.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 15\CriptoSimetrico\CriptoSimetrico\bin\Debug\CriptoSimetrico.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 15\CriptoSimetrico\CriptoSimetrico\obj\Debug\CriptoSimetrico.csprojAssemblyReference.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 15\CriptoSimetrico\CriptoSimetrico\obj\Debug\CriptoSimetrico.Form1.resources
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 15\CriptoSimetrico\CriptoSimetrico\obj\Debug\CriptoSimetrico.Properties.Resources.resources
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 15\CriptoSimetrico\CriptoSimetrico\obj\Debug\CriptoSimetrico.csproj.GenerateResource.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 15\CriptoSimetrico\CriptoSimetrico\obj\Debug\CriptoSimetrico.csproj.CoreCompileInputs.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 15\CriptoSimetrico\CriptoSimetrico\obj\Debug\CriptoSimetrico.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 15\CriptoSimetrico\CriptoSimetrico\obj\Debug\CriptoSimetrico.pdb

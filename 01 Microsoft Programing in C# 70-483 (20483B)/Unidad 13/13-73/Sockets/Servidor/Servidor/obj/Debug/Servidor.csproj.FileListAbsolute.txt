@@ -1,0 +1,7 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 13\13-73\Servidor\Servidor\obj\Debug\Servidor.csprojAssemblyReference.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 13\13-73\Servidor\Servidor\obj\Debug\Servidor.csproj.CoreCompileInputs.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 13\13-73\Servidor\Servidor\bin\Debug\Servidor.exe.config
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 13\13-73\Servidor\Servidor\bin\Debug\Servidor.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 13\13-73\Servidor\Servidor\bin\Debug\Servidor.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 13\13-73\Servidor\Servidor\obj\Debug\Servidor.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 13\13-73\Servidor\Servidor\obj\Debug\Servidor.pdb

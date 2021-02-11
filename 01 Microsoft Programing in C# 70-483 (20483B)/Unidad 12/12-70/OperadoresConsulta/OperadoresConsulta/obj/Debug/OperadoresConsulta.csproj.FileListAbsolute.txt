@@ -1,0 +1,7 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-70\OperadoresConsulta\OperadoresConsulta\bin\Debug\OperadoresConsulta.exe.config
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-70\OperadoresConsulta\OperadoresConsulta\bin\Debug\OperadoresConsulta.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-70\OperadoresConsulta\OperadoresConsulta\bin\Debug\OperadoresConsulta.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-70\OperadoresConsulta\OperadoresConsulta\obj\Debug\OperadoresConsulta.csprojAssemblyReference.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-70\OperadoresConsulta\OperadoresConsulta\obj\Debug\OperadoresConsulta.csproj.CoreCompileInputs.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-70\OperadoresConsulta\OperadoresConsulta\obj\Debug\OperadoresConsulta.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 12\12-70\OperadoresConsulta\OperadoresConsulta\obj\Debug\OperadoresConsulta.pdb

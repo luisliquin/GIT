@@ -1,0 +1,1 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 23\Asincrono\Asincrono\obj\Debug\Asincrono.csproj.CoreCompileInputs.cache

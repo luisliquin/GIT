@@ -1,0 +1,7 @@
+E:\GIT\certificacion c#\8-35\Colecciones\Colecciones\bin\Debug\Colecciones.exe.config
+E:\GIT\certificacion c#\8-35\Colecciones\Colecciones\bin\Debug\Colecciones.exe
+E:\GIT\certificacion c#\8-35\Colecciones\Colecciones\bin\Debug\Colecciones.pdb
+E:\GIT\certificacion c#\8-35\Colecciones\Colecciones\obj\Debug\Colecciones.csprojAssemblyReference.cache
+E:\GIT\certificacion c#\8-35\Colecciones\Colecciones\obj\Debug\Colecciones.csproj.CoreCompileInputs.cache
+E:\GIT\certificacion c#\8-35\Colecciones\Colecciones\obj\Debug\Colecciones.exe
+E:\GIT\certificacion c#\8-35\Colecciones\Colecciones\obj\Debug\Colecciones.pdb

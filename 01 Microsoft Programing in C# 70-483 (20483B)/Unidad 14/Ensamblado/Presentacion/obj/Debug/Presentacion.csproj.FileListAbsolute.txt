@@ -1,0 +1,13 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\obj\Debug\Presentacion.csprojAssemblyReference.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\obj\Debug\Presentacion.Form1.resources
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\bin\Debug\Presentacion.exe.config
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\bin\Debug\Presentacion.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\bin\Debug\Presentacion.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\bin\Debug\Libreria.dll
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\bin\Debug\Libreria.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\obj\Debug\Presentacion.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Presentacion\obj\Debug\Presentacion.pdb

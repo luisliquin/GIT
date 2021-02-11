@@ -1,0 +1,7 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Herencia\Herencia\bin\Debug\Herencia.exe.config
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Herencia\Herencia\bin\Debug\Herencia.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Herencia\Herencia\bin\Debug\Herencia.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Herencia\Herencia\obj\Debug\Herencia.csprojAssemblyReference.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Herencia\Herencia\obj\Debug\Herencia.csproj.CoreCompileInputs.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Herencia\Herencia\obj\Debug\Herencia.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-49\Herencia\Herencia\obj\Debug\Herencia.pdb

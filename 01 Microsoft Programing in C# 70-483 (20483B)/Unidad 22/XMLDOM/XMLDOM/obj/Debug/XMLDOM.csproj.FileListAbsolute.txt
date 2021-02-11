@@ -1,0 +1,11 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 22\XMLDOM\XMLDOM\obj\Debug\XMLDOM.csprojAssemblyReference.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 22\XMLDOM\XMLDOM\obj\Debug\XMLDOM.Form1.resources
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 22\XMLDOM\XMLDOM\obj\Debug\XMLDOM.Properties.Resources.resources
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 22\XMLDOM\XMLDOM\obj\Debug\XMLDOM.csproj.GenerateResource.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 22\XMLDOM\XMLDOM\obj\Debug\XMLDOM.csproj.CoreCompileInputs.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 22\XMLDOM\XMLDOM\bin\Debug\XMLDOM.exe.config
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 22\XMLDOM\XMLDOM\bin\Debug\XMLDOM.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 22\XMLDOM\XMLDOM\bin\Debug\XMLDOM.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 22\XMLDOM\XMLDOM\obj\Debug\XMLDOM.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 22\XMLDOM\XMLDOM\obj\Debug\XMLDOM.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 22\XMLDOM\XMLDOM\obj\Debug\XMLDOM.Form2.resources

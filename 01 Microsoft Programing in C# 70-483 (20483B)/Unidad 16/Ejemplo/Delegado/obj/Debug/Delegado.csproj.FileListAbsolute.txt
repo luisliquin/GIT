@@ -1,0 +1,10 @@
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Delegado\bin\Debug\Delegado.exe.config
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Delegado\bin\Debug\Delegado.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Delegado\bin\Debug\Delegado.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Delegado\bin\Debug\Operacion.dll
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Delegado\bin\Debug\Operacion.pdb
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Delegado\obj\Debug\Delegado.csprojAssemblyReference.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Delegado\obj\Debug\Delegado.csproj.CoreCompileInputs.cache
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Delegado\obj\Debug\Delegado.csproj.CopyComplete
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Delegado\obj\Debug\Delegado.exe
+E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Ejemplo\Delegado\obj\Debug\Delegado.pdb
