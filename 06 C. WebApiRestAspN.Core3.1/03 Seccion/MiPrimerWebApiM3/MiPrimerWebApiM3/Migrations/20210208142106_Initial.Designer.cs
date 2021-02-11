@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MiPrimerWebApiM3.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20200927230408_Initial")]
+    [Migration("20210208142106_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
