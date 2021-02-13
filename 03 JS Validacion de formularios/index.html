@@ -1,37 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Validator</title>    
+    <title>JS Validator</title>
+    <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 
 <body>
-    <form id="myForm" method="GET">
+    <form action="/endpoint.php" id="myForm" method="POST">
         <div>
             <label>Nombre:</label>
             <input 
-            class="jsValidator" 
-            type="text" 
-            name="name"
-            data-validators="required length">            
+                class="form-control jsValidator" 
+                type="text" 
+                name="name"
+                data-validators="required length"
+                data-validators_minlength="5"
+                data-validators_maxlength="300">            
         </div>
-        
+        <div>
+        <label>Username:</label>
+        <input 
+            class="form-control jsValidator" 
+            type="text" 
+            name="user"
+            data-validators="required length alphanumeric"
+            data-validators_minlength="5"
+            data-validators_maxlength="300">            
+        </div>
         <div>
             <label>Email:</label>
             <input 
-            class="jsValidator"
-            type="email" 
-            name="email"
-            data-validators="required">            
+                class="form-control jsValidator"
+                type="text" 
+                name="email"
+                data-validators="required email">            
         </div>
-        <button type="submit">Enviar</button>
+        <div>
+            <label>Edad:</label>
+            <input 
+                class="form-control jsValidator"
+                type="text"
+                name="age"
+                data-validators="integer">
+        </div>
+        <div>
+            <label>Url:</label>
+            <input 
+                class="form-control jsValidator"
+                type="text"
+                name="url"
+                data-validators="required url">
+        </div>
+
+        <div class="form-group">
+            <label>Intereses</label>
+            <select class="form-control jsValidator" name="interests[]" multiple>
+                <option value="1">Interés Uno</option>
+                <option value="2">Interés Dos</option>
+                <option value="3">Interés Tres</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <input 
+                class="form-control jsValidator"
+                type="file" 
+                name="file">
+        </div>
+
+        <div class="form-group">
+            <input class="btn btn-primary btn-lg active" type="submit" name="submit" value="Enviar">
+        </div>
     </form>
     <script src="./js/jsvalidator.js"></script>
     <script>
-        const myFormValidator = new JSValidator('myForm').init();
+        const myFormValidator = new JSValidator('myForm').init().setAjax();
     </script>
 </body>
 
