@@ -314,7 +314,6 @@
     <Content Include="Content\Plugins\sweetalert2\sweetalert.min.js" />
     <Content Include="Content\Plugins\sweetalert2\sweetalert2.all.js" />
     <Content Include="Content\Style\style.css" />
-    <Content Include="Content\Style\style_login.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
