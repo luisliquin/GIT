@@ -125,6 +125,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\modelList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -334,7 +335,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\Plugins\Validarcontraseñas\js\" />
-    <Folder Include="Models\" />
     <Folder Include="Scripts\js\" />
   </ItemGroup>
   <ItemGroup>
@@ -344,6 +344,20 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
     <Content Include="Views\RegistroEmpresa\RegistroEmpresa.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CNTI.FACTUR.ENTITY\CNTI.FACTUR.ENTITY.csproj">
+      <Project>{36558ab0-7a94-45ea-bdc6-cbe730262b73}</Project>
+      <Name>CNTI.FACTUR.ENTITY</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CNTI365.FACTUR.BUSINESS\CNTI365.FACTUR.BUSINESS.csproj">
+      <Project>{ace98329-38ef-4fc2-bbe2-f52fe5a81451}</Project>
+      <Name>CNTI365.FACTUR.BUSINESS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CNTI365.FACTUR.CLIENTS\CNTI365.FACTUR.CLIENTS.csproj">
+      <Project>{741919f6-1b5d-41d6-b85e-3065c365af9f}</Project>
+      <Name>CNTI365.FACTUR.CLIENTS</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
