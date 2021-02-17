@@ -107,6 +107,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\RegistroEmpresaController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -124,8 +125,17 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CNTI365.FACTUR.DATOS\CNTI365.FACTUR.DATOS.csproj">
+      <Project>{a3fba88d-b103-4a0c-adff-1628e7227f83}</Project>
+      <Name>CNTI365.FACTUR.DATOS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CNTI365.FACTUR.ENTITY\CNTI365.FACTUR.ENTITY.csproj">
+      <Project>{12dac5f9-5f59-4446-b8a4-738ac1019c59}</Project>
+      <Name>CNTI365.FACTUR.ENTITY</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
