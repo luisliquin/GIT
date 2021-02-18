@@ -22,7 +22,7 @@ namespace CNTI365.FACTUR.DATOS {
                     cmd.CommandType=CommandType.StoredProcedure;
 
                     using (SqlDataReader rdr = cmd.ExecuteReader()) {
-                        while (rdr.Read) {
+                        while (rdr.Read()) {
                             var resul = new ResponsePais();
                             resul.idpais=Convert.ToInt32(rdr["idpais"]);
                             resul.pais=Convert.ToString(rdr["pais"]);
@@ -33,7 +33,7 @@ namespace CNTI365.FACTUR.DATOS {
                 return lista;
             } catch (Exception ex) {
 
-                throw;
+                throw ex;
             }
         }
     }

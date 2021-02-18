@@ -22,7 +22,7 @@ namespace CNTI365.WEBSERVICE.Controllers {
             try {
                 var rpt = dapaises.listarPaises(paramss);
                 return Ok(rpt);
-            } catch (Exception) {
+            } catch (Exception ex) {
 
                 throw ex;
             }

@@ -1,4 +1,6 @@
-﻿
+﻿@model modelList
+@using CNTI365.FACTUR.Models
+
 @{
     ViewBag.Title="RegistroEmpresa";
     Layout=null;
@@ -61,7 +63,9 @@
                     <div class="col-md-2">
                         <span><label><b>Pais:</b></label></span>
                         <select class="form-control" id="slpais">
-                            <option value="value">text</option>
+                            @foreach (var item in Model.listPais) {
+                                <option value="@item.idpais">@item.pais</option>
+                            }
                         </select>
                     </div>
 
