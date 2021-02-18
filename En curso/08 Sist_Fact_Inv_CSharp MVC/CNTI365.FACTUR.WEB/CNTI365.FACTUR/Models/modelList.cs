@@ -7,5 +7,6 @@ using System.Web;
 namespace CNTI365.FACTUR.Models {
     public class modelList {
         public List<ResponsePais> listPais { get; set; }
+        public List<ResponseMoneda> listMoneda { get; set; }
     }
 }

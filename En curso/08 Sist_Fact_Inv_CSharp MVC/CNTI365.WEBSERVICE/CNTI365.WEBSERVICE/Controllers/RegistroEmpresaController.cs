@@ -27,5 +27,17 @@ namespace CNTI365.WEBSERVICE.Controllers {
                 throw ex;
             }
         }
+
+        [HttpPost]
+        [Route("listarMoneda")]
+        public IHttpActionResult listarMoneda(ENRegistroEmpresa paramss) {
+            try {
+                var rpt = dapaises.listarMoneda(paramss);
+                return Ok(rpt);
+            } catch (Exception ex) {
+
+                throw ex;
+            }
+        }
     }
 }

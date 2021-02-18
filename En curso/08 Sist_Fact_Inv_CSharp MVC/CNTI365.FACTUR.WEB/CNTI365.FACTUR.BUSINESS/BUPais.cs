@@ -16,9 +16,18 @@ namespace CNTI365.FACTUR.BUSINESS {
             client=new Client();
         }
 
-        public List<ResponsePais> listaPaises(ENRegistroEmpresa paramss, string token) {
+        public List<ResponsePais> listarPaises(ENRegistroEmpresa paramss, string token) {
             try {
                 return JsonConvert.DeserializeObject<List<ResponsePais>>(client.Post<ENRegistroEmpresa>("RegistroEmpresa/listarPaises", paramss, token));
+            } catch (Exception ex) {
+
+                throw ex;
+            }
+        }
+
+        public List<ResponseMoneda> listarMoneda(ENRegistroEmpresa paramss, string token) {
+            try {
+                return JsonConvert.DeserializeObject<List<ResponseMoneda>>(client.Post<ENRegistroEmpresa>("RegistroEmpresa/listarMoneda", paramss, token));
             } catch (Exception ex) {
 
                 throw ex;

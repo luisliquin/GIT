@@ -18,7 +18,8 @@ namespace CNTI365.FACTUR.Controllers {
 
         public ActionResult RegistroEmpresa(ENRegistroEmpresa paramss) {
             string token = "";
-            model.listPais=bupais.listaPaises(paramss, token);
+            model.listPais = bupais.listarPaises(paramss, token);
+            model.listMoneda =bupais.listarMoneda(paramss, token);
             return View(model);
         }
     }

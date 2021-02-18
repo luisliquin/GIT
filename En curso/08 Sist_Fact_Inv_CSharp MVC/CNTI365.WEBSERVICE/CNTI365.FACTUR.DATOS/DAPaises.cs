@@ -36,5 +36,32 @@ namespace CNTI365.FACTUR.DATOS {
                 throw ex;
             }
         }
+
+        public List<ResponseMoneda> listarMoneda(ENRegistroEmpresa paramss) {
+            try {
+                string cs = ConfigurationManager.ConnectionStrings["Conexion"].ConnectionString;
+                var lista = new List<ResponseMoneda>();
+
+                using (SqlConnection conn = new SqlConnection(cs)) {
+                    conn.Open();
+                    SqlCommand cmd = new SqlCommand("usp_listarMoneda", conn);
+                    cmd.CommandType=CommandType.StoredProcedure;
+
+                    using (SqlDataReader rdr = cmd.ExecuteReader()) {
+                        while (rdr.Read()) {
+                            var resul = new ResponseMoneda();
+                            resul.idmoneda=Convert.ToInt32(rdr["idmoneda"]);
+                            resul.moneda=Convert.ToString(rdr["moneda"]);
+                            lista.Add(resul);
+                        }
+                    }
+                }
+                return lista;
+            } catch (Exception ex) {
+
+                throw ex;
+            }
+        }
+
     }
 }
