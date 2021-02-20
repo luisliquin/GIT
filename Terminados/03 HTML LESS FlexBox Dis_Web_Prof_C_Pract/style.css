@@ -336,3 +336,224 @@ header .flecha-head .img {
   font-size: 15px;
   font-weight: 400;
 }
+footer {
+  background-color: #1A4958;
+  padding: 70px 100px;
+}
+footer .footer-cont {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  color: white;
+}
+footer .footer-cont .footer-col1 {
+  width: 30%;
+}
+footer .footer-cont .footer-col1 .footer-info {
+  display: flex;
+  flex-flow: row;
+}
+footer .footer-cont .footer-col1 .footer-info img {
+  width: 25px;
+  margin-right: 10px;
+  filter: grayscale(1) invert(1);
+}
+footer .footer-cont .footer-col1 .footer-info h3 {
+  font-size: 15px ;
+  font-weight: 400;
+}
+footer .footer-cont .footer-col2 {
+  width: 20%;
+}
+footer .footer-cont .footer-col2 ul {
+  list-style-type: circle;
+}
+footer .footer-cont .footer-col2 ul li {
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+footer .footer-cont .footer-col2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .footer-cont .footer-col3 {
+  width: 20%;
+}
+footer .footer-cont .footer-col3 ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+footer .footer-cont .footer-col3 ul li {
+  font-size: 17px;
+  margin-bottom: 16px;
+}
+footer .footer-cont .footer-col4 {
+  width: 25%;
+}
+footer .footer-cont .footer-col4 h3 {
+  font-size: 17px;
+  font-weight: 400;
+}
+footer .footer-cont .footer-col4 form {
+  display: flex;
+  flex-flow: column;
+}
+footer .footer-cont .footer-col4 form input[type='text'] {
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 10px 5px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+footer .footer-cont .footer-col4 form input[type='submit'] {
+  border: 1px solid white;
+  width: 83%;
+  background-color: white;
+  padding: 4px 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+#toogle {
+  display: none;
+}
+.res-menu {
+  display: none;
+}
+@media only screen and (max-width: 1100px) {
+  .res-menu {
+    display: flex;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    -webkit-user-select: none;
+            user-select: none;
+  }
+  header {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  header nav {
+    flex-flow: column;
+  }
+  header nav .logo {
+    min-width: -webkit-min-content;
+    min-width: min-content;
+  }
+  header nav .menu {
+    display: none;
+    background-color: #1A4958;
+    padding-top: 30px;
+  }
+  header nav .menu ul {
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+  }
+  header nav .menu ul li {
+    width: 100%;
+    text-align: center;
+    border-bottom: 3px solid #ffffff;
+  }
+  header nav .menu ul li a {
+    justify-content: center;
+    padding: 14px 0px;
+  }
+  header nav .leng {
+    display: none;
+    background-color: #1A4958;
+    padding-top: 20px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-bottom: 30px;
+  }
+  header .centro-head .header-text {
+    width: 100% !important;
+    margin: 0;
+  }
+  header .centro-head .header-text h1 {
+    margin: 0;
+    font-size: 76px;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  header .header-anuncio {
+    display: none;
+  }
+  header .flecha-head {
+    display: none;
+  }
+  .cont-ciudades .ciu-titulo {
+    width: 50%;
+  }
+  .cont-ciudades .ciu-tarjetas {
+    flex-flow: row wrap;
+  }
+  .cont-ciudades .ciu-tarjetas .ciu-content {
+    width: 50%;
+  }
+  .cont-city {
+    margin: 100px 0px 50px 0px;
+  }
+  .cont-city .city-info {
+    flex-flow: column;
+  }
+  .cont-city .city-info .city-img {
+    width: 100%;
+  }
+  .cont-city .city-info .city-img img {
+    width: 100%;
+  }
+  .cont-city .city-info .city-img .city-text {
+    width: 100%;
+    padding: 30px 0px;
+  }
+  .cont-city .city-info .city-img .btn-city {
+    display: flex !important;
+    width: auto;
+    justify-content: center;
+  }
+  .cont-city .city-bg {
+    display: none;
+  }
+  .cont-servicios .serv-lista {
+    flex-flow: column;
+  }
+  .cont-servicios .serv-lista .serv-cont {
+    width: 100%;
+  }
+  .cont-servicios .serv-lista .serv-cont p {
+    padding-right: 0;
+  }
+  footer .footer-cont {
+    flex-flow: column;
+  }
+  footer .footer-cont .footer-col1 {
+    width: 100%;
+  }
+  footer .footer-cont .footer-col2 {
+    width: 100%;
+  }
+  footer .footer-cont .footer-col3 {
+    width: 100%;
+  }
+  footer .footer-cont .footer-col4 {
+    width: 100%;
+  }
+}
+#toogle:checked ~ .menu {
+  display: flex;
+  width: 200%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+#toogle:checked ~ .leng {
+  display: flex;
+  width: 200%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}

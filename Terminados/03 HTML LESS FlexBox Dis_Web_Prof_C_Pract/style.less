@@ -385,3 +385,253 @@ header{
         }
     }
 }
+
+//FINAL CONTENIDO 3 Servicios
+
+//Footer
+footer{
+    background-color: #1A4958;
+    padding: 70px 100px; //margen general
+    .footer-cont{
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        color: white;
+        .footer-col1{
+            width: 30%;
+            .footer-info{
+                display: flex;
+                flex-flow: row;
+                img{
+                    width: 25px;
+                    margin-right: 10px;
+                    -webkit-filter: grayscale(1) invert(1); filter: grayscale(1) invert(1);
+                }
+                h3{
+                    font-size:15px ;
+                    font-weight: 400;
+                }
+            }
+        }
+        .footer-col2{
+            width: 20%;
+            ul{
+                list-style-type: circle;
+                li{
+                    font-size: 20px;
+                    margin-bottom: 16px;
+                    a{
+                        text-decoration: none;
+                        color:white;
+                    }
+                }
+            }
+        }
+
+        .footer-col3{
+            width: 20%;
+            ul{
+                list-style-type: none;
+                padding-left: 0;
+                li{
+                    font-size: 17px;
+                    margin-bottom: 16px;
+                }
+            }
+        }
+
+        .footer-col4{
+            width: 25%;
+            h3{
+                font-size: 17px;
+                font-weight: 400;
+            }
+            form{
+                display: flex;
+                flex-flow: column;
+                input[type='text']{
+                    border: 1px solid white;
+                    background-color: transparent;
+                    padding: 10px 5px;
+                    width: 80%;
+                    margin-bottom: 20px;
+                }
+                input[type='submit']{
+                    border: 1px solid white;
+                    width: 83%;
+                    background-color: white;
+                    padding: 4px 10px;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+            }
+            
+        }
+    }
+}
+
+//Menu Responsive
+#toogle{
+    display: none;
+}
+
+.res-menu{
+    display: none;
+}
+
+@media only screen and (max-width: 1100px){
+    
+     .res-menu{
+        display: flex;
+        font-size: 50px;
+        color: white;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    header{
+        height: fit-content;
+        nav{
+            flex-flow: column;
+            .logo{
+                min-width: min-content;
+            }
+            .menu{
+                display: none;
+                background-color: #1A4958;
+                padding-top: 30px;
+                ul{
+                    flex-flow: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 50%;
+                    li{
+                        width: 100%;
+                        text-align: center;
+                        border-bottom: 3px solid rgb(255,255, 255);
+                        a{
+                            justify-content: center;
+                            padding: 14px 0px;
+                        }
+                    }
+                }              
+            }
+            .leng{
+                display: none;
+                background-color: #1A4958;
+                padding-top: 20px;
+                padding-bottom: 30px;
+                width:fit-content;
+                padding-bottom: 30px;
+            }
+        }
+
+        .centro-head .header-text{
+            width: 100% !important;
+            margin: 0;
+            h1{
+                margin: 0;
+                font-size: 76px;
+                margin-bottom: 80px;
+                text-align: center;
+            }
+        }
+        .header-anuncio{
+            display: none;            
+        }
+
+        .flecha-head{
+            display: none;
+        }
+    }
+    //Fin Header
+
+    //Tarjetas
+    .cont-ciudades{
+        .ciu-titulo{
+            width: 50%;
+        }
+        .ciu-tarjetas{
+            flex-flow: row wrap;
+            .ciu-content{
+                width: 50%;
+            }
+        }
+    }
+    //Fin tarjetas
+
+    //Ciudad Unica
+    .cont-city{
+        margin: 100px 0px 50px 0px;
+        .city-info{
+            flex-flow: column;
+            .city-img{
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+                .city-text{
+                    width: 100%;
+                    padding: 30px 0px;
+                }
+                .btn-city{
+                    display: flex !important;
+                    width: auto;
+                    justify-content: center;
+                }
+            }
+        }
+        .city-bg{
+            display: none;
+        }
+    }
+
+    //Fin Ciudad Unica
+
+    //Servicios
+    .cont-servicios{
+        .serv-lista{
+            flex-flow: column;
+            .serv-cont{
+                width: 100%;
+                p{
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+    //Fin Servicios
+
+    //Footer
+    footer .footer-cont{
+        flex-flow: column;
+        .footer-col1{
+            width: 100%;
+        }
+        .footer-col2{
+            width: 100%;
+        }
+        .footer-col3{
+            width: 100%;
+        }
+        .footer-col4{
+            width: 100%;
+        }        
+    }
+}
+
+#toogle:checked ~ .menu{
+    display: flex;
+    width: 200%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#toogle:checked ~ .leng{
+    display: flex;
+    width: 200%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
