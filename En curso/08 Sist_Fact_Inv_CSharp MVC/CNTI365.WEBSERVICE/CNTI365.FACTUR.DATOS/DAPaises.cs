@@ -89,5 +89,31 @@ namespace CNTI365.FACTUR.DATOS {
                 throw ex;
             }
         }
+
+        public List<ResponsePImpuestos> listarPImpuestos(ENRegistroEmpresa paramss) {
+            try {
+                string cs = ConfigurationManager.ConnectionStrings["Conexion"].ConnectionString;
+                var lista = new List<ResponsePImpuestos>();
+
+                using (SqlConnection conn = new SqlConnection(cs)) {
+                    conn.Open();
+                    SqlCommand cmd = new SqlCommand("usp_listarPImpuestos", conn);
+                    cmd.CommandType=CommandType.StoredProcedure;
+
+                    using (SqlDataReader rdr = cmd.ExecuteReader()) {
+                        while (rdr.Read()) {
+                            var resul = new ResponsePImpuestos();
+                            resul.idpimpuestos=Convert.ToInt32(rdr["idpimpuestos"]);
+                            resul.pimpuestos=Convert.ToInt32(rdr["pimpuestos"]);
+                            lista.Add(resul);
+                        }
+                    }
+                }
+                return lista;
+            } catch (Exception ex) {
+
+                throw ex;
+            }
+        }
     }
 }

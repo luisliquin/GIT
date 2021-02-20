@@ -10,5 +10,6 @@ namespace CNTI365.FACTUR.Models {
         public List<ResponsePais> listPais { get; set; }
         public List<ResponseMoneda> listMoneda { get; set; }
         public List<ResponseTImpuestos> listTImpuesto { get; set; }
+        public List<ResponsePImpuestos> listPImpuestos { get; set; }
     }
 }

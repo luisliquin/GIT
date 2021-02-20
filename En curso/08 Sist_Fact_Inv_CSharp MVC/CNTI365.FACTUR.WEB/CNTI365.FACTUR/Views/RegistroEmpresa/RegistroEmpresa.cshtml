@@ -91,7 +91,7 @@
                     <br /><br /><br /><br />
                 </div>
 
-                <div class="col-md-12">
+                <div class="col-md-12" >
                     <div class="col-md-3">
                     </div>
 
@@ -107,7 +107,7 @@
                     <br /><br /><br />
                 </div>
 
-                <div class="col-md-12">
+                <div class="col-md-12" id="divvendeImpuestos">
                     <div class="col-md-3">
                     </div>
 
@@ -123,7 +123,9 @@
                     <div class="col-md-2">
                         <span><label><b>Porcentaje:</b></label></span>
                         <select class="form-control" id="slporcentaje">
-                            <option value="value">text</option>
+                            @foreach (var item in Model.listPImpuestos) {
+                                <option value="@item.idpimpuestos">@item.pimpuestos</option>
+                            }
                         </select>
                         <br />
                     </div>

@@ -1,4 +1,9 @@
-﻿/*visualizar imagen*/
+﻿$(document).ready(function () {
+    document.getElementById("rdsi").checked = true;
+    $("#divvendeImpuestos").show();
+})
+
+/*visualizar imagen*/
 $('#imagen').change(function () {
     let imagen = this.files[0];
 
@@ -19,4 +24,16 @@ $('#imagen').change(function () {
             $(".previsualizar").attr("src", rutaImagen);
         })
     }
+})
+
+$("#rdsi").on("click", function () {
+    document.getElementById("rdno").checked = false;
+    document.getElementById("rdsi").checked = true;
+    $("#divvendeImpuestos").show();
+})
+
+$("#rdno").on("click", function () {
+    document.getElementById("rdno").checked = true;
+    document.getElementById("rdsi").checked = false;
+    $("#divvendeImpuestos").hide();
 })

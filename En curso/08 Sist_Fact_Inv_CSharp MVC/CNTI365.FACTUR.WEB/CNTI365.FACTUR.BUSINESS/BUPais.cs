@@ -43,5 +43,14 @@ namespace CNTI365.FACTUR.BUSINESS {
                 throw ex;
             }
         }
+
+        public List<ResponsePImpuestos> listarPImpuestos(ENRegistroEmpresa paramss, string token) {
+            try {
+                return JsonConvert.DeserializeObject<List<ResponsePImpuestos>>(client.Post<ENRegistroEmpresa>("RegistroEmpresa/listarPImpuestos", paramss, token));
+            } catch (Exception ex) {
+
+                throw ex;
+            }
+        }
     }
 }

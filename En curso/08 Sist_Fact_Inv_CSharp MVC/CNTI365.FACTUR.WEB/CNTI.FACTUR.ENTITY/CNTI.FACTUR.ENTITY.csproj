@@ -46,6 +46,7 @@
     <Compile Include="ResponseTImpuestos.cs" />
     <Compile Include="Response\ResponseMoneda.cs" />
     <Compile Include="Response\ResponsePais.cs" />
+    <Compile Include="Response\ResponsePImpuestos.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

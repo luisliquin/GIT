@@ -21,6 +21,7 @@ namespace CNTI365.FACTUR.Controllers {
             model.listPais = bupais.listarPaises(paramss, token);
             model.listMoneda =bupais.listarMoneda(paramss, token);
             model.listTImpuesto=bupais.listarTImpuestos(paramss, token);
+            model.listPImpuestos=bupais.listarPImpuestos(paramss, token);
             return View(model);
         }
     }
