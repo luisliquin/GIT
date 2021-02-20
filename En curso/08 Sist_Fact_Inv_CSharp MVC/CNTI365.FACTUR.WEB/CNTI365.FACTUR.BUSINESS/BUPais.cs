@@ -1,4 +1,5 @@
-﻿using CNTI.FACTUR.ENTITY.Parametros;
+﻿using CNTI.FACTUR.ENTITY;
+using CNTI.FACTUR.ENTITY.Parametros;
 using CNTI.FACTUR.ENTITY.Response;
 using CNTI365.FACTUR.CLIENTS;
 using Newtonsoft.Json;
@@ -28,6 +29,15 @@ namespace CNTI365.FACTUR.BUSINESS {
         public List<ResponseMoneda> listarMoneda(ENRegistroEmpresa paramss, string token) {
             try {
                 return JsonConvert.DeserializeObject<List<ResponseMoneda>>(client.Post<ENRegistroEmpresa>("RegistroEmpresa/listarMoneda", paramss, token));
+            } catch (Exception ex) {
+
+                throw ex;
+            }
+        }
+
+        public List<ResponseTImpuestos> listarTImpuestos(ENRegistroEmpresa paramss, string token) {
+            try {
+                return JsonConvert.DeserializeObject<List<ResponseTImpuestos>>(client.Post<ENRegistroEmpresa>("RegistroEmpresa/listarTImpuestos", paramss, token));
             } catch (Exception ex) {
 
                 throw ex;

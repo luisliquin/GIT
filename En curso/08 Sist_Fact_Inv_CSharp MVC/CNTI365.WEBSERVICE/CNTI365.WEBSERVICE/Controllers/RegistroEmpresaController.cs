@@ -39,5 +39,17 @@ namespace CNTI365.WEBSERVICE.Controllers {
                 throw ex;
             }
         }
+
+        [HttpPost]
+        [Route("listarTImpuestos")]
+        public IHttpActionResult listarTImpuestos(ENRegistroEmpresa paramss) {
+            try {
+                var rpt = dapaises.listarTImpuestos(paramss);
+                return Ok(rpt);
+            } catch (Exception ex) {
+
+                throw ex;
+            }
+        }
     }
 }

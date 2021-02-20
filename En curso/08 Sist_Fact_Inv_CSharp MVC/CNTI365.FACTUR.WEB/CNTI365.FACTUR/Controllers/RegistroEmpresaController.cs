@@ -20,6 +20,7 @@ namespace CNTI365.FACTUR.Controllers {
             string token = "";
             model.listPais = bupais.listarPaises(paramss, token);
             model.listMoneda =bupais.listarMoneda(paramss, token);
+            model.listTImpuesto=bupais.listarTImpuestos(paramss, token);
             return View(model);
         }
     }
