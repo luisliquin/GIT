@@ -30,8 +30,9 @@ namespace CNTI365.FACTUR.Controllers {
         [AllowAnonymous]
         [HttpPost]
         public ActionResult validarRegistro(ENRegistroEmpresa paramss) {
-            var rpt = buregistroempresa.validarRegistro(paramss);
-            return Json(new {dt = rpt})
+            string token = "";
+            var rpt = buregistroempresa.validarRegistro(paramss, token);
+            return Json(new { dt = rpt });
         }
     }
 }

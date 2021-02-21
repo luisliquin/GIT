@@ -60,13 +60,27 @@ $("#btnsiguiente").on("click", function () {
         $("#msjemail").html("*Debe ingresar un email valido").css("color", "red");
         $("#txtemail").css("border-color", "");
     } else {
+
         var paramss = new Object();
         paramss.razonsocial = razonsocial;
         paramss.ruc = ruc;
         paramss.email = email;
 
-        Post("RegistroEmpresa/validarRegistro", paramss).done(Function(datos){
-
+        Post("RegistroEmpresa/validarRegistro", paramss).done(function(datos) {
+           if(datos.dt.response == "ok") {
+                $(".divregistroempresa").hide();
+                $(".divregistrousersuperadmin").show();
+           }else {
+                swal({
+                    position: "top-end",
+                    type: "error",
+                    title: datos.dt.response,
+                    text: 'por favor valide el campo solicitado',
+                    showConfirmButton: true,
+                    timer: 60000,
+                    confirmButtonText: 'Cerrar'
+                })
+           }
         })
     }
 })

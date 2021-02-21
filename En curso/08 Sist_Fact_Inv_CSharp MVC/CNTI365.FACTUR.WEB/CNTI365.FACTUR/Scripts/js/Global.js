@@ -9,7 +9,7 @@ function ajaxMethod(url, method, paramss) {
         async: false,
         cache: false,
         data: paramss
-    }).fail(function (jqXHR), textStatus, errorThrown){
+    }).fail(function (jqXHR, textStatus, errorThrown){
         console.debug(jqXHR);
         console.debug(textStatus);
         console.log(errorThrown);
