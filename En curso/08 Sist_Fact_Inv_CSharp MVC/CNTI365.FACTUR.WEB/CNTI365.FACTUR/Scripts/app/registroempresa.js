@@ -66,11 +66,12 @@ $("#btnsiguiente").on("click", function () {
         paramss.ruc = ruc;
         paramss.email = email;
 
-        Post("RegistroEmpresa/validarRegistro", paramss).done(function(datos) {
-           if(datos.dt.response == "ok") {
+        Post("RegistroEmpresa/validarRegistro", paramss).done(function (datos) {
+           if (datos.dt.response == "ok") {
                 $(".divregistroempresa").hide();
                 $(".divregistrousersuperadmin").show();
-           }else {
+                document.getElementById('btnregistrar').disabled = true;
+           } else {
                 swal({
                     position: "top-end",
                     type: "error",
@@ -80,7 +81,7 @@ $("#btnsiguiente").on("click", function () {
                     timer: 60000,
                     confirmButtonText: 'Cerrar'
                 })
-           }
+            }
         })
     }
 })
@@ -120,6 +121,6 @@ $("#txtemail").keyup(function () {
         } else {
             $("#msjemail").html("").css("color", "red");
             $("#txtemail").css("border-color", "");
-        }        
+        }
     }
 })
