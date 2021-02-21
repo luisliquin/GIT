@@ -11,9 +11,11 @@ namespace CNTI365.FACTUR.Controllers {
     public class RegistroEmpresaController : Controller {
         private modelList model;
         private BUPais bupais;
+        private BURegistroEmpresa buregistroempresa;
         public RegistroEmpresaController() {
             model=new modelList();
             bupais=new BUPais();
+            buregistroempresa=new BURegistroEmpresa();
         }
 
         public ActionResult RegistroEmpresa(ENRegistroEmpresa paramss) {
@@ -23,6 +25,13 @@ namespace CNTI365.FACTUR.Controllers {
             model.listTImpuesto=bupais.listarTImpuestos(paramss, token);
             model.listPImpuestos=bupais.listarPImpuestos(paramss, token);
             return View(model);
+        }
+
+        [AllowAnonymous]
+        [HttpPost]
+        public ActionResult validarRegistro(ENRegistroEmpresa paramss) {
+            var rpt = buregistroempresa.validarRegistro(paramss);
+            return Json(new {dt = rpt})
         }
     }
 }

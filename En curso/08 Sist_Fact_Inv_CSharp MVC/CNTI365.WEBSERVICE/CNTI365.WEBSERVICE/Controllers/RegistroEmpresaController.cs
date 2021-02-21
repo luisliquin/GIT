@@ -11,9 +11,10 @@ namespace CNTI365.WEBSERVICE.Controllers {
     [RoutePrefix("api/RegistroEmpresa")]
     public class RegistroEmpresaController : ApiController {
         private DAPaises dapaises;
-
+        private DARegistroEmpresa daregistroempresa;
         public RegistroEmpresaController() {
             dapaises = new DAPaises();
+            daregistroempresa=new DARegistroEmpresa();
         }
 
         [HttpPost]
@@ -63,5 +64,17 @@ namespace CNTI365.WEBSERVICE.Controllers {
                 throw ex;
             }
         }
+        [HttpPost]
+        [Route("validarRegistro")]
+        public IHttpActionResult validarRegistro(ENRegistroEmpresa paramss) {
+            try {
+                var rpt = daregistroempresa.validarRegistro(paramss);
+                return Ok(rpt);
+            } catch (Exception ex) {
+
+                throw ex;
+            }
+        }
+
     }
 }

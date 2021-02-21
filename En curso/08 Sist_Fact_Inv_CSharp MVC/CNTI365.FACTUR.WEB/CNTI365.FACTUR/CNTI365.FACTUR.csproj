@@ -319,6 +319,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\app\registroempresa.js" />
+    <Content Include="Scripts\js\Global.js" />
+    <Content Include="Scripts\js\Validaciones.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -335,7 +337,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\Plugins\Validarcontraseñas\js\" />
-    <Folder Include="Scripts\js\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

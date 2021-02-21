@@ -1,66 +1,3 @@
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.dll.config
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.pdb
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\csc.exe
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\csc.exe.config
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\csc.rsp
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\csi.exe
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\csi.rsp
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\Microsoft.CodeAnalysis.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\Microsoft.CSharp.Core.targets
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\Microsoft.VisualBasic.Core.targets
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\System.AppContext.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\System.Collections.Immutable.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\System.Diagnostics.StackTrace.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\System.IO.FileSystem.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\System.IO.FileSystem.Primitives.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\System.Reflection.Metadata.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\vbc.exe
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\vbc.exe.config
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\vbc.rsp
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\VBCSCompiler.exe
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\VBCSCompiler.exe.config
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\Antlr3.Runtime.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\Microsoft.Web.Infrastructure.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\Newtonsoft.Json.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.Helpers.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.Mvc.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.Optimization.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.Razor.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.WebPages.Deployment.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.WebPages.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.WebPages.Razor.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\WebGrease.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.Helpers.xml
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.Mvc.xml
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.Optimization.xml
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.Razor.xml
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.WebPages.xml
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.WebPages.Deployment.xml
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.WebPages.Razor.xml
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\Newtonsoft.Json.xml
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\Antlr3.Runtime.pdb
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\es\System.Web.Helpers.resources.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\es\System.Web.Mvc.resources.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\es\System.Web.Optimization.resources.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\es\System.Web.Razor.resources.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\es\System.Web.WebPages.resources.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\es\System.Web.WebPages.Deployment.resources.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\es\System.Web.WebPages.Razor.resources.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\obj\Debug\CNTI365.FACTUR.csprojAssemblyReference.cache
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\obj\Debug\CNTI365.FACTUR.csproj.CoreCompileInputs.cache
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\obj\Debug\CNTI365.FACTUR.csproj.CopyComplete
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\obj\Debug\CNTI365.FACTUR.dll
-E:\GIT\14 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\obj\Debug\CNTI365.FACTUR.pdb
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.dll.config
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.dll
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.pdb
@@ -91,6 +28,9 @@ E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bi
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\VBCSCompiler.exe
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\roslyn\VBCSCompiler.exe.config
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\Antlr3.Runtime.dll
+E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI.FACTUR.ENTITY.dll
+E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.BUSINESS.dll
+E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.CLIENTS.dll
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\Microsoft.Web.Infrastructure.dll
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\Newtonsoft.Json.dll
@@ -102,6 +42,9 @@ E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bi
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.WebPages.dll
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.WebPages.Razor.dll
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\WebGrease.dll
+E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI.FACTUR.ENTITY.pdb
+E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.BUSINESS.pdb
+E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.CLIENTS.pdb
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.Helpers.xml
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.Mvc.xml
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\System.Web.Optimization.xml
@@ -124,9 +67,3 @@ E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\ob
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\obj\Debug\CNTI365.FACTUR.csproj.CopyComplete
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\obj\Debug\CNTI365.FACTUR.dll
 E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\obj\Debug\CNTI365.FACTUR.pdb
-E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI.FACTUR.ENTITY.dll
-E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.BUSINESS.dll
-E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.CLIENTS.dll
-E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI.FACTUR.ENTITY.pdb
-E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.BUSINESS.pdb
-E:\GIT\En curso\08 Sist_Fact_Inv_CSharp MVC\CNTI365.FACTUR.WEB\CNTI365.FACTUR\bin\CNTI365.FACTUR.CLIENTS.pdb

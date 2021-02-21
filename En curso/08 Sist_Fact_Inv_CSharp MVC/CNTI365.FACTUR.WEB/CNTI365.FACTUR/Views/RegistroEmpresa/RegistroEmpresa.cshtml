@@ -16,6 +16,10 @@
     <!--JS-->
     <script src="~/Content/plugins/js/jquery-3.1.1.min.js"></script>
     <script src="~/Content/plugins/js/bootstrap.min.js"></script>
+    <script>
+        var appUrl = "@Url.Content("~/")";
+    </script>
+
 </head>
 <body>
     <br /><br /><br />
@@ -42,12 +46,14 @@
 
                     <div class="col-md-6">
                         <span><label><b>Razon Social:</b></label></span>
-                        <input type="text" class="form-control" id="txtrazonsocial" />
+                        <input type="text" class="form-control" id="txtrazonsocial" placeholder="Razon Social"/>
+                        <span id="msjrazonsocial"></span>
                     </div>
 
                     <div class="col-md-3">
                         <span><label><b>RUC:</b></label></span>
-                        <input type="text" class="form-control" id="txtruc" />
+                        <input type="text" class="form-control" id="txtruc" placeholder="RUC" maxlength="11" required onkeypress="return solonumeros(event)"/>
+                        <span id="msjruc"></span>
                     </div>
                 </div>
 
@@ -57,7 +63,8 @@
 
                     <div class="col-md-4">
                         <span><label><b>Email:</b></label></span>
-                        <input type="text" class="form-control" id="txtemail" />
+                        <input type="text" class="form-control" id="txtemail" placeholder="Email"/>
+                        <span id="msjemail"></span>
                     </div>
 
                     <div class="col-md-2">
@@ -86,7 +93,7 @@
 
                     <div class="col-md-9">
                         <span><label><b>Direccion:</b></label></span>
-                        <input type="text" class="form-control" id="txtdireccion" />
+                        <input type="text" class="form-control" id="txtdireccion" placeholder="Direccion"/>
                     </div>
                     <br /><br /><br /><br />
                 </div>
@@ -94,7 +101,6 @@
                 <div class="col-md-12" >
                     <div class="col-md-3">
                     </div>
-
                     <div class="col-md-2">
                         <span><label><b>¿Vende con impuestos?:</b></label></span>
                     </div>
@@ -190,4 +196,7 @@
     </div>
 </body>
 </html>
+
 <script type="text/javascript" src="~/Scripts/app/registroempresa.js"></script>
+<script type="text/javascript" src="~/Scripts/js/Validaciones.js"></script>
+<script type="text/javascript" src="~/Scripts/js/Global.js"></script>
