@@ -7,5 +7,7 @@ using System.Threading.Tasks;
 namespace CNTI.FACTUR.ENTITY.Response {
     public class ResponseRegistroEmpresa {
         public string response { get; set; }
+        public string text { get; set; }
+        public string msj { get; set; }
     }
 }

@@ -58,7 +58,28 @@ namespace CNTI365.FACTUR.Controllers {
                     filename=file.FileName;
                 }
 
-                var rpt = "ok";
+                var paramss = new ENRegistroEmpresa();
+                paramss.razonsocial = razonsocial;
+                paramss.ruc = ruc;
+                paramss.email=email;
+                paramss.idpais=idpais;
+                paramss.idmoneda=idmoneda;
+                paramss.direccion=direccion;
+                paramss.idimpuesto=idimpuesto;
+                paramss.idporcentaje=idporcentaje;
+                paramss.vendeimpuestos=vendeimpuesto;
+                paramss.username=username;
+                paramss.usuario=usuario;
+                paramss.contraseña=clave;
+                paramss.cantuser=1;
+                paramss.cargo="superadmin";
+                paramss.filename=filename;
+                paramss.proyecto="FACTURA";
+
+                string token = "";
+
+                var rpt = buregistroempresa.insertarEmpresa(paramss, token);
+
                 return Json(new {dt = rpt });
             } catch (Exception ex) {
 
