@@ -1,5 +1,5 @@
 ﻿function Post(url, paramss) {
-    return ajaxMethod(url, "POST", paramss)
+    return ajaxMethod(url, "POST", paramss);
 }
 
 function ajaxMethod(url, method, paramss) {
@@ -9,16 +9,16 @@ function ajaxMethod(url, method, paramss) {
         async: false,
         cache: false,
         data: paramss
-    }).fail(function (jqXHR, textStatus, errorThrown){
+    }).fail(function (jqXHR, textStatus, errorThrowm){
         console.debug(jqXHR);
         console.debug(textStatus);
-        console.log(errorThrown);
+        console.log(errorThrowm);
     })
 }
 
 /*Funcion para enviar archivos file al controlador*/
 
-function PostImmg(url, params) {
+function PostImg(url, params) {
     return ajaxMethodImg(url, "POST", params);
 }
 
@@ -31,10 +31,10 @@ function ajaxMethodImg(url, method, params) {
         contentType: false,
         cache: false,
         data: params
-    }).fail(function (jqXHR, textStatus, errorThrown) {
+    }).fail(function (jqXHR, textStatus, errorThrowm) {
         console.debug(jqXHR);
         console.debug(textStatus);
-        console.log(errorThrown);
+        console.log(errorThrowm);
     })
 }
 

@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Encrypt\Encrypt.cs" />
     <Compile Include="Parametros\ENRegistroEmpresa.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Response\ResponseRegistroEmpresa.cs" />

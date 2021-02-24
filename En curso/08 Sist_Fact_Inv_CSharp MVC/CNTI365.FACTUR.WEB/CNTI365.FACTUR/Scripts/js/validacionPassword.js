@@ -94,7 +94,7 @@ $("#txtconfircontraseña").keyup(function () {
     console.log(confircontraseña);
 
     if (confircontraseña == "") {
-        confirpassword.setAttribute('type', 'password');
+        confirPassword.setAttribute('type', 'password');
         $("#confirfaeyeslash").hide();
         $("#confirfaeye").show();
         $("#msjconfirpassword").html("").css("color", "red");

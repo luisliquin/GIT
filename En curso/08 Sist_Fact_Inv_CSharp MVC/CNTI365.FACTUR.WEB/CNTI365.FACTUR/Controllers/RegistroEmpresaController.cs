@@ -1,8 +1,10 @@
-﻿using CNTI.FACTUR.ENTITY.Parametros;
+﻿using CNTI.FACTUR.ENTITY.Encrypt;
+using CNTI.FACTUR.ENTITY.Parametros;
 using CNTI365.FACTUR.BUSINESS;
 using CNTI365.FACTUR.Models;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -33,6 +35,35 @@ namespace CNTI365.FACTUR.Controllers {
             string token = "";
             var rpt = buregistroempresa.validarRegistro(paramss, token);
             return Json(new { dt = rpt });
+        }
+
+        [HttpPost]
+        public ActionResult insertarEmpresa(HttpPostedFileBase file, string razonsocial, string ruc, string email, int idpais, int idmoneda, 
+                                            string direccion, int idimpuesto, int idporcentaje, int vendeimpuesto,string username,
+                                            string usuario, string contraseña){
+            try {
+                var clave = Encrypt.GetSHA256(contraseña);
+                var filename = "";
+
+                if (file!=null) {
+                    string path = Server.MapPath("~/Content/img/img_empresas" + ruc + "/");
+                    string filePath = string.Empty;
+
+                    if (!Directory.Exists(path)) {
+                        Directory.CreateDirectory(path);
+                    }
+
+                    filePath=path+Path.GetFileName(file.FileName);
+                    file.SaveAs(filePath);
+                    filename=file.FileName;
+                }
+
+                var rpt = "ok";
+                return Json(new {dt = rpt });
+            } catch (Exception ex) {
+
+                throw ex;
+            }
         }
     }
 }

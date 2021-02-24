@@ -4,7 +4,7 @@
 })
 
 /*visualizar imagen*/
-$('#imagen').change(function () {
+$("#imagen").change(function () {
     let imagen = this.files[0];
 
     if (imagen["type"] != "image/jpeg" && imagen["type"] != "image/png") {
@@ -44,15 +44,15 @@ $("#btnsiguiente").on("click", function () {
     let ruc = $("#txtruc").val();
     let email = $("#txtemail").val();
 
-    if (razonsocial == "") {
+    if (razonsocial.trim() == "") {
         $("#msjrazonsocial").html("*El campo razon social no debe estar vacio").css("color", "red");
         $("#txtrazonsocial").css("border-color", "red");
         $("#txtrazonsocial").focus();
-    } else if (ruc == "") {
+    } else if (ruc.trim() == "") {
         $("#msjruc").html("*El campo ruc no debe estar vacio").css("color", "red");
         $("#txtruc").css("border-color", "red");
         $("#txtruc").focus();
-    } else if (email == "") {
+    } else if (email.trim() == "") {
         $("#msjemail").html("*El campo email no debe estar vacio").css("color", "red");
         $("#txtemail").css("border-color", "red");
         $("#txtemail").focus();
@@ -70,7 +70,7 @@ $("#btnsiguiente").on("click", function () {
             if (datos.dt.response == "ok") {
                 $(".divregistroempresa").hide();
                 $(".divregistrousersuperadmin").show();
-                document.getElementById('btnregistrar').disabled = true;
+                document.getElementById("btnregistrar").disabled = true;
             } else {
                 swal({
                     position: "top-end",
@@ -125,7 +125,7 @@ $("#txtemail").keyup(function () {
     }
 })
 
-$("#brnregistrar").on("click", function () {
+$("#btnregistrar").on("click", function () {
     let razonsocial = $("#txtrazonsocial").val();
     let ruc = $("#txtruc").val();
     let email = $("#txtemail").val();
@@ -143,8 +143,8 @@ $("#brnregistrar").on("click", function () {
     let confircontraseña = $("#txtconfircontraseña").val();
 
     if ($("#rdsi").is(":checked") == true) {
-        idimpmuesto = $("sltipoimpuesto").val();
-        idporcentaje = $("slporcentaje").val();
+        idimpmuesto = $("#sltipoimpuesto").val();
+        idporcentaje = $("#slporcentaje").val();
         vendeimpuesto = 1;
     }
 
@@ -184,13 +184,13 @@ $("#brnregistrar").on("click", function () {
         PostImg("RegistroEmpresa/insertarEmpresa", params).done(function (datos) {
             if (datos.dt.response == "ok") {
                 swal({
-                    position: "top-end",
-                    end: "success",
+                    position: 'top-end',
+                    type: 'success',
                     title: datos.dt.msj,
                     text: datos.dt.text,
                     showConfirmButton: true,
                     timer: 60000,
-                    confirmButtonText: "Cerrar"
+                    confirmButtonText: 'Cerrar'
                 }).then((result) => {
                     if (result.value) {
                         window.location = fnBaseURLWeb("Home/Index");
@@ -200,13 +200,13 @@ $("#brnregistrar").on("click", function () {
                 })
             } else {
                 swal({
-                    position: "top-end",
-                    end: "error",
+                    position: 'top-end',
+                    type: 'error',
                     title: datos.dt.msj,
                     text: datos.dt.text,
                     showConfirmButton: true,
                     timer: 60000,
-                    confirmButtonText: "Cerrar"
+                    confirmButtonText: 'Cerrar'
                 })
             }
         })
