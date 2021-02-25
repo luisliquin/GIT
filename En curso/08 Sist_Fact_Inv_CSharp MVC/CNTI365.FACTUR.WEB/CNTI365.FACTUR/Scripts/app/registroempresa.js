@@ -186,24 +186,24 @@ $("#btnregistrar").on("click", function () {
                 swal({
                     position: 'top-end',
                     type: 'success',
-                    title: datos.dt.msj,
-                    text: datos.dt.text,
+                    title: 'Empresa guardada correctamente',
+                    text: 'Se envio un correo a su cuenta con sus accesos',
                     showConfirmButton: true,
                     timer: 60000,
                     confirmButtonText: 'Cerrar'
                 }).then((result) => {
                     if (result.value) {
-                        window.location = fnBaseURLWeb("Home/Index");
+                    //    window.location = fnBaseURLWeb("Home/Index");
                     } else {
-                        window.location = fnBaseURLWeb("Home/Index");
+                    //    window.location = fnBaseURLWeb("Home/Index");
                     }
                 })
             } else {
                 swal({
                     position: 'top-end',
                     type: 'error',
-                    title: datos.dt.msj,
-                    text: datos.dt.text,
+                    title: 'No se guardo la empresa',
+                    text: 'contacte con el administrador del sistema',
                     showConfirmButton: true,
                     timer: 60000,
                     confirmButtonText: 'Cerrar'
