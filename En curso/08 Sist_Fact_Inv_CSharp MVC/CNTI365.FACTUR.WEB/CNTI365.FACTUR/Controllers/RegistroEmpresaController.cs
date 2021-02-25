@@ -80,6 +80,16 @@ namespace CNTI365.FACTUR.Controllers {
 
                 var rpt = buregistroempresa.insertarEmpresa(paramss, token);
 
+                if (rpt.response=="ok") {
+                    rpt=buregistroempresa.insertarUserAdminEmpresa(paramss, token);
+
+                    if (rpt.response=="ok") {
+                        return Json(new { dt = rpt });
+                    }
+                } else {
+                    return Json(new { dt = rpt });
+                }
+
                 return Json(new {dt = rpt });
             } catch (Exception ex) {
 

@@ -31,5 +31,13 @@ namespace CNTI365.FACTUR.BUSINESS {
                 throw ex;
             }
         }
+
+        public ResponseRegistroEmpresa insertarUserAdminEmpresa(ENRegistroEmpresa paramss, string token) {
+            try {
+                return JsonConvert.DeserializeObject<ResponseRegistroEmpresa>(clients.Post<ENRegistroEmpresa>("RegistroEmpresa/insertarUserAdminEmpresa", paramss, token));
+            } catch (Exception ex) {
+                throw ex;
+            }
+        }
     }
 }
