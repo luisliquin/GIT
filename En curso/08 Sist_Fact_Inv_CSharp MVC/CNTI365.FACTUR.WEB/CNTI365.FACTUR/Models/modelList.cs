@@ -11,5 +11,6 @@ namespace CNTI365.FACTUR.Models {
         public List<ResponseMoneda> listMoneda { get; set; }
         public List<ResponseTImpuestos> listTImpuesto { get; set; }
         public List<ResponsePImpuestos> listPImpuestos { get; set; }
+        public ResponseRegistroEmpresa msjActivarCuenta { get; set; }
     }
 }

@@ -193,9 +193,9 @@ $("#btnregistrar").on("click", function () {
                     confirmButtonText: 'Cerrar'
                 }).then((result) => {
                     if (result.value) {
-                    //    window.location = fnBaseURLWeb("Home/Index");
+                        window.location = fnBaseURLWeb("Home/Index");
                     } else {
-                    //    window.location = fnBaseURLWeb("Home/Index");
+                        window.location = fnBaseURLWeb("Home/Index");
                     }
                 })
             } else {
@@ -211,4 +211,14 @@ $("#btnregistrar").on("click", function () {
             }
         })
     }
+})
+
+$("#btncancelar").on("click", function () {
+    console.log("test");
+    window.location = fnBaseURLWeb("Home/Index");
+})
+
+$("#btnatras").on("click", function () {
+    $(".divregistroempresa").show();
+    $(".divregistrousersuperadmin").hide();
 })

@@ -6,6 +6,8 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Web;
 using System.Web.Mvc;
 
@@ -84,6 +86,35 @@ namespace CNTI365.FACTUR.Controllers {
                     rpt=buregistroempresa.insertarUserAdminEmpresa(paramss, token);
 
                     if (rpt.response=="ok") {
+                        string url = string.Format("https://localhost:44320/ActivarCuenta/ActivarCuenta/ruc" + ruc);
+                        string para = email;
+                        string asunto = "Activacion de cuenta | sistema de facturacion e inventario";
+                        string mensaje = "<b>Gracias por registrarse</b>" + "<br/></br>" +
+                            "Estas son sus credenciales de acceso" + "<br/></br/>" +
+                            "Usuario: " + usuario + "<br/>" +
+                            "Contraseña: " + contraseña + "<br/>" +
+                            "Cargo: " + paramss.cargo + "<br/></br/>" +
+                            "Para poder acceder al sistema debe poder primero poder activar la cuenta. Activela <a href=\""+ url +"\">aqui</a>" + "</br></br>" +
+                            "Recuerde, esto es un periodo de prueba por 15 dias, para obtener una licencia escribenos al correo ventas@empresa.com";
+
+                        MailMessage correo = new MailMessage();
+                        correo.From=new MailAddress("systemafactur@empresa.com"); //Agregar dominio de la empresa
+                        correo.To.Add(para);
+                        correo.Subject=asunto;
+                        correo.Body=mensaje;
+                        correo.IsBodyHtml=true;
+                        SmtpClient smtp = new SmtpClient("smtp-mail.outlook.com"); //cambiar por el nombre de la SMTP
+                        string sCuentaCorreo = "luis_liquin@hotail.com"; // cambiar por el correo de la empresa
+                        string sPassword = "test"; //cambiar pass de la empresa
+                        NetworkCredential credential = new NetworkCredential(sCuentaCorreo, sPassword);
+                        smtp.UseDefaultCredentials=false;
+                        smtp.Credentials=credential;
+                        smtp.Port=465; //cambiar puerto por el de la empresa
+                        smtp.EnableSsl=true; //puede variar la configuracion
+                        smtp.Send(correo);
+
+                        return Json(new { dt = rpt });
+                    } else {
                         return Json(new { dt = rpt });
                     }
                 } else {

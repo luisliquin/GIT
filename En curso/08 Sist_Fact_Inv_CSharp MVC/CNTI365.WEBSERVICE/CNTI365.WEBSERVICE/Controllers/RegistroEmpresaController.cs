@@ -99,5 +99,17 @@ namespace CNTI365.WEBSERVICE.Controllers {
                 throw ex;
             }
         }
+
+        [HttpGet]
+        [Route("activarCuenta")]
+        public IHttpActionResult activarCuenta(string ruc) {
+            try {
+                var rpt = daregistroempresa.activarCuenta(ruc);
+                return Ok(rpt);
+            } catch (Exception ex) {
+
+                throw ex;
+            }
+        }
     }
 }
