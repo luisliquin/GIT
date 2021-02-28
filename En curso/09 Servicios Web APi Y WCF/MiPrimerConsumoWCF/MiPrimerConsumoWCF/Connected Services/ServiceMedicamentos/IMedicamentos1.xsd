@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:import schemaLocation="http://192.168.0.3:8081/IMedicamentos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ServiciosMedicamento.Clases" />
+  <xs:import schemaLocation="https://192.168.0.3:8082/IMedicamentos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ServiciosMedicamento.Clases" />
   <xs:element name="listarMedicamentos">
     <xs:complexType>
       <xs:sequence />

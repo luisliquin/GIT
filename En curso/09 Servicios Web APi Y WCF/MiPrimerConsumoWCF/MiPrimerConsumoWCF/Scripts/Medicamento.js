@@ -11,22 +11,38 @@ function listarFormaFarmaceutica() {
         });
 }
 
-function Limpiar() {
-    var limpiar = document.getElementsByClassName("Limpiar");
-    var nlimpiar = limpiar.length;
-    for (i = 0; i < nlimpiar; i++) {
-        limpiar[i].value = "";
+function filtrarDatos() {
+    var nombreMedicamento = document.getElementById("txtBuscarNombreMedicamento").value;
+
+    if (nombreMedicamento != "") {
+        fetch("Medicamento/buscarMedicamentosPorNombre/?nombreMedicamento=" + nombreMedicamento)
+            .then(res => res.json())
+            .then(res => {
+                listar(res);
+            })
+    } else {
+        listarMedicamentos();
     }
 }
 
 function llenarCombo(res) {
     var contenido = "";
-    contenido += "<option value=''>--Seleccione--<option>";
-    for (i = 0; i < res.length; i++) {
+    contenido += "<option value=''>--Seleccione--</option>"
+
+    for (var i = 0; i < res.length; i++) {
         contenido += "<option value='" + res[i].iidformafarmaceutica + "'>" + res[i].nombreFormaFarmaceutica + "</option>";
-        console.log(contenido);
+       // console.log(contenido);
     }
     document.getElementById("cboFormaFarmaceutica").innerHTML = contenido;
+}
+
+
+function Limpiar() {
+    var limpiar = document.getElementsByClassName("Limpiar");
+    var nlimpiar = limpiar.length;
+    for (var i = 0; i < nlimpiar; i++) {
+        limpiar[i].value = "";
+    }
 }
 
 function listarMedicamentos(){
@@ -39,7 +55,7 @@ function listarMedicamentos(){
 
 function listar(res) {
     var contenido = "";
-    contenido += "<table class = 'table'>";
+    contenido += "<table id='table' class = 'table'>";
     contenido += "<thead class = 'table-dark'>";
 
     //Deinimos la 1ra fila
@@ -71,16 +87,30 @@ function listar(res) {
         contenido += "<td>" + item.precio + "</td>";
         contenido += "<td>" + item.presentacion + "</td>";
         contenido += "<td><input type='button' class='btn btn-primary' onclick='abrirModal(" + item.iidmedicamento + ")' value='Editar'data-toggle='modal' data-target='#exampleModal'/>";
-        contenido += "<input type='button' class='btn btn-danger' value='Elminar'/> </td>";
+        contenido += "<input type='button' onclick='Eliminar(" + item.iidmedicamento + ")' class='btn btn-danger' value='Elminar'/> </td>";
         contenido += "</tr>";
     }
 
     contenido += "</tbody>";
     contenido += "</table>";
 
-    console.log(contenido);
-
     document.getElementById("divTabla").innerHTML = contenido;
+    $('#table').DataTable();
+}
+
+function Eliminar(iidmedicamento) {
+    if (confirm("¿Desea eliminar realmente el registro?") == 1) {
+        fetch("Medicamento/eliminarMedicamento/?iidMedicamento=" + iidmedicamento)
+            .then(res => res.json())
+            .then(res => {
+                if (res == 1) {
+                    listarMedicamentos();
+                    alert("Se elimino correctamente");
+                } else {
+                    alert("Ocurrio un error");
+                }
+            })
+    }
 }
 
 function abrirModal(iidMedicamento) {
@@ -102,6 +132,74 @@ function abrirModal(iidMedicamento) {
                 document.getElementById("txtprecio").value = res.precio;
                 document.getElementById("txtstock").value = res.stock;
                 document.getElementById("txtpresentacion").value = res.presentacion;
+            });
+    }
+}
+
+function datosObligatorios() {
+    //Significa que no hay errrores
+    var exito = true;
+    var contenido = "<ol style='color:red'>";
+    var obligatorios = document.getElementsByClassName("obligatorio");
+    var nobligatorio = obligatorios.length;
+
+    for (var i = 0; i < nobligatorio; i++) {
+        if (obligatorios[i].value === "") {
+            exito = false;
+            contenido += "<li>" + obligatorios[i].name + " es obligatorio</li>";
+        }
+    }
+    contenido += "</ol>";
+    return { exito, contenido };
+}
+
+function Guardar() {
+    if (confirm("¿Deseas guardar los cambios?") == 1) {
+        var objeto = datosObligatorios();
+
+        if (objeto.exito == false) {
+            document.getElementById("divError").innerHTML = objeto.contenido;
+            return;
+        } else {
+            document.getElementById("divError").innerHTML = "";
+        }
+
+        //Capturar los valores
+        var iidmedicamento = document.getElementById("txtIdMedicamento").value;
+        var nombre = document.getElementById("txtnombre").value;
+        var concentracion = document.getElementById("txtconcentracion").value;
+        var iidformafarmaceutica = document.getElementById("cboFormaFarmaceutica").value;
+        var precio = document.getElementById("txtprecio").value;
+        var stock = document.getElementById("txtstock").value;
+        var presentacion = document.getElementById("txtpresentacion").value;
+
+        //Llamada al controller
+        var objetoEnviar = {
+            iidmedicamento,
+            nombre,
+            concentracion,
+            iidformafarmaceutica,
+            precio,
+            stock,
+            presentacion
+        };
+
+        fetch("Medicamento/agregaryYEditarMedicamento",{
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            method: 'POST',
+            body: JSON.stringify(objetoEnviar)
+        }).then(res => res.json())
+            .then(res => {
+                if (res == 1) {
+                    listarMedicamentos();
+                    document.getElementById("btnCerrar").click();
+                    alert("Se guardo correctamente");
+                } else {
+                    alert("Ocurrio un error");
+                }
             })
     }
 }
+
