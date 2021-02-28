@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="1b948315-6bfc-4395-b267-66d5a3b7f73b" activeEnvironment="Default" name="IMedicamentos" resourceRoot="" soapui-version="5.6.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="ad9268f9-8075-4b29-a113-fdd5119fb94b" wsaVersion="NONE" name="BasicHttpBinding_IMedicamentos" type="wsdl" bindingName="{http://tempuri.org/}BasicHttpBinding_IMedicamentos" soapVersion="1_1" anonymous="optional" definition="http://192.168.0.3:8081/IMedicamentos.svc?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://192.168.0.3:8081/IMedicamentos.svc?wsdl"><con:part><con:url>http://192.168.0.3:8081/IMedicamentos.svc?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="Medicamentos" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://192.168.0.3:8081/IMedicamentos.svc?xsd=xsd0" namespace="http://tempuri.org/"/>
+      <xsd:import schemaLocation="http://192.168.0.3:8081/IMedicamentos.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+      <xsd:import schemaLocation="http://192.168.0.3:8081/IMedicamentos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ServiciosMedicamento.Clases"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IMedicamentos_listarMedicamentos_InputMessage">
+    <wsdl:part name="parameters" element="tns:listarMedicamentos"/>
+  </wsdl:message>
+  <wsdl:message name="IMedicamentos_listarMedicamentos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:listarMedicamentosResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMedicamentos_listarFormaFarmaceutica_InputMessage">
+    <wsdl:part name="parameters" element="tns:listarFormaFarmaceutica"/>
+  </wsdl:message>
+  <wsdl:message name="IMedicamentos_listarFormaFarmaceutica_OutputMessage">
+    <wsdl:part name="parameters" element="tns:listarFormaFarmaceuticaResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMedicamentos_recuperarMedicamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:recuperarMedicamento"/>
+  </wsdl:message>
+  <wsdl:message name="IMedicamentos_recuperarMedicamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:recuperarMedicamentoResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMedicamentos_registrarYActualizarMedicamentos_InputMessage">
+    <wsdl:part name="parameters" element="tns:registrarYActualizarMedicamentos"/>
+  </wsdl:message>
+  <wsdl:message name="IMedicamentos_registrarYActualizarMedicamentos_OutputMessage">
+    <wsdl:part name="parameters" element="tns:registrarYActualizarMedicamentosResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IMedicamentos_eliminarMedicamento_InputMessage">
+    <wsdl:part name="parameters" element="tns:eliminarMedicamento"/>
+  </wsdl:message>
+  <wsdl:message name="IMedicamentos_eliminarMedicamento_OutputMessage">
+    <wsdl:part name="parameters" element="tns:eliminarMedicamentoResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="IMedicamentos">
+    <wsdl:operation name="listarMedicamentos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMedicamentos/listarMedicamentos" message="tns:IMedicamentos_listarMedicamentos_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMedicamentos/listarMedicamentosResponse" message="tns:IMedicamentos_listarMedicamentos_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="listarFormaFarmaceutica">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMedicamentos/listarFormaFarmaceutica" message="tns:IMedicamentos_listarFormaFarmaceutica_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMedicamentos/listarFormaFarmaceuticaResponse" message="tns:IMedicamentos_listarFormaFarmaceutica_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarMedicamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMedicamentos/recuperarMedicamento" message="tns:IMedicamentos_recuperarMedicamento_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMedicamentos/recuperarMedicamentoResponse" message="tns:IMedicamentos_recuperarMedicamento_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="registrarYActualizarMedicamentos">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMedicamentos/registrarYActualizarMedicamentos" message="tns:IMedicamentos_registrarYActualizarMedicamentos_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMedicamentos/registrarYActualizarMedicamentosResponse" message="tns:IMedicamentos_registrarYActualizarMedicamentos_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="eliminarMedicamento">
+      <wsdl:input wsaw:Action="http://tempuri.org/IMedicamentos/eliminarMedicamento" message="tns:IMedicamentos_eliminarMedicamento_InputMessage"/>
+      <wsdl:output wsaw:Action="http://tempuri.org/IMedicamentos/eliminarMedicamentoResponse" message="tns:IMedicamentos_eliminarMedicamento_OutputMessage"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IMedicamentos" type="tns:IMedicamentos">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="listarMedicamentos">
+      <soap:operation soapAction="http://tempuri.org/IMedicamentos/listarMedicamentos" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listarFormaFarmaceutica">
+      <soap:operation soapAction="http://tempuri.org/IMedicamentos/listarFormaFarmaceutica" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="recuperarMedicamento">
+      <soap:operation soapAction="http://tempuri.org/IMedicamentos/recuperarMedicamento" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registrarYActualizarMedicamentos">
+      <soap:operation soapAction="http://tempuri.org/IMedicamentos/registrarYActualizarMedicamentos" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="eliminarMedicamento">
+      <soap:operation soapAction="http://tempuri.org/IMedicamentos/eliminarMedicamento" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Medicamentos">
+    <wsdl:port name="BasicHttpBinding_IMedicamentos" binding="tns:BasicHttpBinding_IMedicamentos">
+      <soap:address location="http://192.168.0.3:8081/IMedicamentos.svc"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>http://192.168.0.3:8081/IMedicamentos.svc?xsd=xsd0</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://tempuri.org/">
+  <xs:import schemaLocation="http://192.168.0.3:8081/IMedicamentos.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ServiciosMedicamento.Clases"/>
+  <xs:element name="listarMedicamentos">
+    <xs:complexType>
+      <xs:sequence/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="listarMedicamentosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="listarMedicamentosResult" nillable="true" type="q1:ArrayOfMedicamentoCLS" xmlns:q1="http://schemas.datacontract.org/2004/07/ServiciosMedicamento.Clases"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="listarFormaFarmaceutica">
+    <xs:complexType>
+      <xs:sequence/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="listarFormaFarmaceuticaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="listarFormaFarmaceuticaResult" nillable="true" type="q2:ArrayOfFormaFarmaceuticaCLS" xmlns:q2="http://schemas.datacontract.org/2004/07/ServiciosMedicamento.Clases"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recuperarMedicamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="iidmedicamento" type="xs:int"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="recuperarMedicamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="recuperarMedicamentoResult" nillable="true" type="q3:MedicamentoCLS" xmlns:q3="http://schemas.datacontract.org/2004/07/ServiciosMedicamento.Clases"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="registrarYActualizarMedicamentos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="oidmedicamentoCLS" nillable="true" type="q4:MedicamentoCLS" xmlns:q4="http://schemas.datacontract.org/2004/07/ServiciosMedicamento.Clases"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="registrarYActualizarMedicamentosResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="registrarYActualizarMedicamentosResult" type="xs:int"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="eliminarMedicamento">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="iidMedicamento" type="xs:int"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="eliminarMedicamentoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="eliminarMedicamentoResult" type="xs:int"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://192.168.0.3:8081/IMedicamentos.svc?xsd=xsd2</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ServiciosMedicamento.Clases" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.datacontract.org/2004/07/ServiciosMedicamento.Clases">
+  <xs:complexType name="ArrayOfMedicamentoCLS">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MedicamentoCLS" nillable="true" type="tns:MedicamentoCLS"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMedicamentoCLS" nillable="true" type="tns:ArrayOfMedicamentoCLS"/>
+  <xs:complexType name="MedicamentoCLS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="iidmedicamento" type="xs:int"/>
+      <xs:element minOccurs="0" name="nombre" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="concentracion" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="iidformafarmaceutica" type="xs:int"/>
+      <xs:element minOccurs="0" name="nombreFormaFarmaceutica" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="precio" type="xs:decimal"/>
+      <xs:element minOccurs="0" name="stock" type="xs:int"/>
+      <xs:element minOccurs="0" name="presentacion" nillable="true" type="xs:string"/>
+      <xs:element minOccurs="0" name="bhabilitado" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MedicamentoCLS" nillable="true" type="tns:MedicamentoCLS"/>
+  <xs:complexType name="ArrayOfFormaFarmaceuticaCLS">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FormaFarmaceuticaCLS" nillable="true" type="tns:FormaFarmaceuticaCLS"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFormaFarmaceuticaCLS" nillable="true" type="tns:ArrayOfFormaFarmaceuticaCLS"/>
+  <xs:complexType name="FormaFarmaceuticaCLS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="iidformafarmaceutica" type="xs:int"/>
+      <xs:element minOccurs="0" name="nombreFormaFarmaceutica" nillable="true" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FormaFarmaceuticaCLS" nillable="true" type="tns:FormaFarmaceuticaCLS"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://192.168.0.3:8081/IMedicamentos.svc?xsd=xsd1</con:url><con:content><![CDATA[<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
+  <xs:element name="anyType" nillable="true" type="xs:anyType"/>
+  <xs:element name="anyURI" nillable="true" type="xs:anyURI"/>
+  <xs:element name="base64Binary" nillable="true" type="xs:base64Binary"/>
+  <xs:element name="boolean" nillable="true" type="xs:boolean"/>
+  <xs:element name="byte" nillable="true" type="xs:byte"/>
+  <xs:element name="dateTime" nillable="true" type="xs:dateTime"/>
+  <xs:element name="decimal" nillable="true" type="xs:decimal"/>
+  <xs:element name="double" nillable="true" type="xs:double"/>
+  <xs:element name="float" nillable="true" type="xs:float"/>
+  <xs:element name="int" nillable="true" type="xs:int"/>
+  <xs:element name="long" nillable="true" type="xs:long"/>
+  <xs:element name="QName" nillable="true" type="xs:QName"/>
+  <xs:element name="short" nillable="true" type="xs:short"/>
+  <xs:element name="string" nillable="true" type="xs:string"/>
+  <xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte"/>
+  <xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt"/>
+  <xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong"/>
+  <xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort"/>
+  <xs:element name="char" nillable="true" type="tns:char"/>
+  <xs:simpleType name="char">
+    <xs:restriction base="xs:int"/>
+  </xs:simpleType>
+  <xs:element name="duration" nillable="true" type="tns:duration"/>
+  <xs:simpleType name="duration">
+    <xs:restriction base="xs:duration">
+      <xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?"/>
+      <xs:minInclusive value="-P10675199DT2H48M5.4775808S"/>
+      <xs:maxInclusive value="P10675199DT2H48M5.4775807S"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="guid" nillable="true" type="tns:guid"/>
+  <xs:simpleType name="guid">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:attribute name="FactoryType" type="xs:QName"/>
+  <xs:attribute name="Id" type="xs:ID"/>
+  <xs:attribute name="Ref" type="xs:IDREF"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://192.168.0.3:8081/IMedicamentos.svc</con:endpoint></con:endpoints><con:operation id="8a03d910-df65-44e1-a9f1-874e381d4ebd" isOneWay="false" action="http://tempuri.org/IMedicamentos/eliminarMedicamento" name="eliminarMedicamento" bindingOperationName="eliminarMedicamento" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="1f656c34-d476-4c4b-abc9-0da526d7bca5" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://192.168.0.3:8081/IMedicamentos.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:eliminarMedicamento>\r
+         <!--Optional:-->\r
+         <tem:iidMedicamento>?</tem:iidMedicamento>\r
+      </tem:eliminarMedicamento>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMedicamentos/eliminarMedicamento"/></con:call></con:operation><con:operation id="84d3c27d-ded9-496d-a1dc-7f5f6b6eb554" isOneWay="false" action="http://tempuri.org/IMedicamentos/listarFormaFarmaceutica" name="listarFormaFarmaceutica" bindingOperationName="listarFormaFarmaceutica" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="f9df45e6-6a40-40c6-ba83-2cc39a81d107" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://192.168.0.3:8081/IMedicamentos.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:listarFormaFarmaceutica/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMedicamentos/listarFormaFarmaceutica"/></con:call></con:operation><con:operation id="3795d60d-5563-4519-afbc-d2959c4c63da" isOneWay="false" action="http://tempuri.org/IMedicamentos/listarMedicamentos" name="listarMedicamentos" bindingOperationName="listarMedicamentos" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e6fd99f1-7d82-458c-be6e-3fcd5f18b6cf" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://192.168.0.3:8081/IMedicamentos.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:listarMedicamentos/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMedicamentos/listarMedicamentos"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="04ded3d6-f3f8-4df7-b4b5-4957f3281310" isOneWay="false" action="http://tempuri.org/IMedicamentos/recuperarMedicamento" name="recuperarMedicamento" bindingOperationName="recuperarMedicamento" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="a6eefdca-32f5-4d45-96f2-650d237d0119" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://192.168.0.3:8081/IMedicamentos.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:recuperarMedicamento>\r
+         <!--Optional:-->\r
+         <tem:iidmedicamento>?</tem:iidmedicamento>\r
+      </tem:recuperarMedicamento>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMedicamentos/recuperarMedicamento"/></con:call></con:operation><con:operation id="bcd6b646-6237-4a21-9e58-9b936dc43640" isOneWay="false" action="http://tempuri.org/IMedicamentos/registrarYActualizarMedicamentos" name="registrarYActualizarMedicamentos" bindingOperationName="registrarYActualizarMedicamentos" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="321733ed-0657-4684-b499-91b25673117d" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://192.168.0.3:8081/IMedicamentos.svc</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:ser="http://schemas.datacontract.org/2004/07/ServiciosMedicamento.Clases">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tem:registrarYActualizarMedicamentos>\r
+         <!--Optional:-->\r
+         <tem:oidmedicamentoCLS>\r
+            <!--Optional:-->\r
+            <ser:iidmedicamento>?</ser:iidmedicamento>\r
+            <!--Optional:-->\r
+            <ser:nombre>?</ser:nombre>\r
+            <!--Optional:-->\r
+            <ser:concentracion>?</ser:concentracion>\r
+            <!--Optional:-->\r
+            <ser:iidformafarmaceutica>?</ser:iidformafarmaceutica>\r
+            <!--Optional:-->\r
+            <ser:nombreFormaFarmaceutica>?</ser:nombreFormaFarmaceutica>\r
+            <!--Optional:-->\r
+            <ser:precio>?</ser:precio>\r
+            <!--Optional:-->\r
+            <ser:stock>?</ser:stock>\r
+            <!--Optional:-->\r
+            <ser:presentacion>?</ser:presentacion>\r
+            <!--Optional:-->\r
+            <ser:bhabilitado>?</ser:bhabilitado>\r
+         </tem:oidmedicamentoCLS>\r
+      </tem:registrarYActualizarMedicamentos>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/IMedicamentos/registrarYActualizarMedicamentos"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
