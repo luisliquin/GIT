@@ -122,7 +122,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Connected Services\ServiceMedicamento\Reference.cs">
+    <Compile Include="Connected Services\ServiceMedicamentos\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
@@ -135,15 +135,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\ServiceMedicamento\configuration91.svcinfo" />
-    <None Include="Connected Services\ServiceMedicamento\configuration.svcinfo" />
-    <Content Include="Connected Services\ServiceMedicamento\MiPrimerConsumoWCF.ServiceMedicamento.FormaFarmaceuticaCLS.datasource">
+    <None Include="Connected Services\ServiceMedicamentos\configuration91.svcinfo" />
+    <None Include="Connected Services\ServiceMedicamentos\configuration.svcinfo" />
+    <Content Include="Connected Services\ServiceMedicamentos\MiPrimerConsumoWCF.ServiceMedicamentos.FormaFarmaceuticaCLS.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\ServiceMedicamento\MiPrimerConsumoWCF.ServiceMedicamento.MedicamentoCLS.datasource">
+    <Content Include="Connected Services\ServiceMedicamentos\MiPrimerConsumoWCF.ServiceMedicamentos.MedicamentoCLS.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <None Include="Connected Services\ServiceMedicamento\Reference.svcmap">
+    <None Include="Connected Services\ServiceMedicamentos\Reference.svcmap">
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
@@ -157,16 +157,16 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Connected Services\ServiceMedicamento\IMedicamentos.xsd">
+    <None Include="Connected Services\ServiceMedicamentos\IMedicamentos.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ServiceMedicamento\IMedicamentos1.xsd">
+    <None Include="Connected Services\ServiceMedicamentos\IMedicamentos1.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ServiceMedicamento\IMedicamentos2.xsd">
+    <None Include="Connected Services\ServiceMedicamentos\IMedicamentos2.xsd">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Connected Services\ServiceMedicamento\Medicamentos.wsdl" />
+    <None Include="Connected Services\ServiceMedicamentos\Medicamentos.wsdl" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -216,7 +216,7 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadataStorage Include="Connected Services\ServiceMedicamento\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceMedicamentos\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

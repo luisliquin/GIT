@@ -1,0 +1,11 @@
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiSegundoServicioWCFConsumidoEnWindows\MiSegundoServicioWCFConsumidoEnWindows\bin\Debug\MiSegundoServicioWCFConsumidoEnWindows.exe.config
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiSegundoServicioWCFConsumidoEnWindows\MiSegundoServicioWCFConsumidoEnWindows\bin\Debug\MiSegundoServicioWCFConsumidoEnWindows.exe
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiSegundoServicioWCFConsumidoEnWindows\MiSegundoServicioWCFConsumidoEnWindows\bin\Debug\MiSegundoServicioWCFConsumidoEnWindows.pdb
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiSegundoServicioWCFConsumidoEnWindows\MiSegundoServicioWCFConsumidoEnWindows\obj\Debug\MiSegundoServicioWCFConsumidoEnWindows.csprojAssemblyReference.cache
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiSegundoServicioWCFConsumidoEnWindows\MiSegundoServicioWCFConsumidoEnWindows\obj\Debug\MiSegundoServicioWCFConsumidoEnWindows.Form1.resources
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiSegundoServicioWCFConsumidoEnWindows\MiSegundoServicioWCFConsumidoEnWindows\obj\Debug\MiSegundoServicioWCFConsumidoEnWindows.frmPopupMedicamento.resources
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiSegundoServicioWCFConsumidoEnWindows\MiSegundoServicioWCFConsumidoEnWindows\obj\Debug\MiSegundoServicioWCFConsumidoEnWindows.Properties.Resources.resources
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiSegundoServicioWCFConsumidoEnWindows\MiSegundoServicioWCFConsumidoEnWindows\obj\Debug\MiSegundoServicioWCFConsumidoEnWindows.csproj.GenerateResource.cache
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiSegundoServicioWCFConsumidoEnWindows\MiSegundoServicioWCFConsumidoEnWindows\obj\Debug\MiSegundoServicioWCFConsumidoEnWindows.csproj.CoreCompileInputs.cache
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiSegundoServicioWCFConsumidoEnWindows\MiSegundoServicioWCFConsumidoEnWindows\obj\Debug\MiSegundoServicioWCFConsumidoEnWindows.exe
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiSegundoServicioWCFConsumidoEnWindows\MiSegundoServicioWCFConsumidoEnWindows\obj\Debug\MiSegundoServicioWCFConsumidoEnWindows.pdb

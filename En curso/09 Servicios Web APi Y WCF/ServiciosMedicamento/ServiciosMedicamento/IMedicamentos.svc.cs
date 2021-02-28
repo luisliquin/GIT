@@ -91,7 +91,7 @@ namespace ServiciosMedicamento {
             try {
                 using (var bd = new MedicoEntities()) {
                     //Registrar 
-                    if (oMedicamentoCLS.iidformafarmaceutica==0) {
+                    if (oMedicamentoCLS.iidmedicamento == 0) {
                         Medicamento omedicamento = new Medicamento();
                         omedicamento.IIDMEDICAMENTO=oMedicamentoCLS.iidmedicamento;
                         omedicamento.NOMBRE=oMedicamentoCLS.nombre;
