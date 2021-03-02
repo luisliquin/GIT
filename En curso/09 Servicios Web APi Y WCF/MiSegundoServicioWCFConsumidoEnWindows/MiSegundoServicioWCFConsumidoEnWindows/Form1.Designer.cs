@@ -86,6 +86,7 @@ namespace MiSegundoServicioWCFConsumidoEnWindows {
             this.toolStripSalir.Name = "toolStripSalir";
             this.toolStripSalir.Size = new System.Drawing.Size(29, 22);
             this.toolStripSalir.Text = "Salir";
+            this.toolStripSalir.Click += new System.EventHandler(this.toolStripSalir_Click);
             // 
             // Form1
             // 

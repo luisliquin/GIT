@@ -24,6 +24,7 @@ namespace MiSegundoServicioWCFConsumidoEnWindows {
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -40,6 +41,8 @@ namespace MiSegundoServicioWCFConsumidoEnWindows {
             this.cboFormaFarmaceutica = new System.Windows.Forms.ComboBox();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.errorDatos = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorDatos)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -112,6 +115,7 @@ namespace MiSegundoServicioWCFConsumidoEnWindows {
             this.txtIdMedicamento.ReadOnly = true;
             this.txtIdMedicamento.Size = new System.Drawing.Size(193, 20);
             this.txtIdMedicamento.TabIndex = 7;
+            this.txtIdMedicamento.Text = "0";
             // 
             // txtNombre
             // 
@@ -160,21 +164,28 @@ namespace MiSegundoServicioWCFConsumidoEnWindows {
             // 
             // btnAceptar
             // 
+            this.btnAceptar.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnAceptar.Location = new System.Drawing.Point(117, 255);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 14;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnCancelar
             // 
+            this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCancelar.Location = new System.Drawing.Point(216, 255);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 15;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            // 
+            // errorDatos
+            // 
+            this.errorDatos.ContainerControl = this;
             // 
             // frmPopupMedicamento
             // 
@@ -201,6 +212,7 @@ namespace MiSegundoServicioWCFConsumidoEnWindows {
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmPopupMedicamento";
             this.Load += new System.EventHandler(this.frmPopupMedicamento_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.errorDatos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -224,5 +236,6 @@ namespace MiSegundoServicioWCFConsumidoEnWindows {
         private System.Windows.Forms.ComboBox cboFormaFarmaceutica;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.ErrorProvider errorDatos;
     }
 }

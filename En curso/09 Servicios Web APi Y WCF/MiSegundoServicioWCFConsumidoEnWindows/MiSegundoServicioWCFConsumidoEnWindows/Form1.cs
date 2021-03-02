@@ -41,6 +41,10 @@ namespace MiSegundoServicioWCFConsumidoEnWindows {
             frmPopupMedicamento ofrmPopupMedicamento = new frmPopupMedicamento();
             ofrmPopupMedicamento.iidmedicamento=0;
             ofrmPopupMedicamento.ShowDialog();
+
+            if (ofrmPopupMedicamento.DialogResult.Equals(DialogResult.OK)) {
+                listar();
+            }
         }
 
         private void toolStripEditar_Click(object sender, EventArgs e) {
@@ -49,6 +53,10 @@ namespace MiSegundoServicioWCFConsumidoEnWindows {
             int idMedicamento = (int)dgvMedicamento.CurrentRow.Cells[0].Value;
             ofrmPopupMedicamento.iidmedicamento=idMedicamento;
             ofrmPopupMedicamento.ShowDialog();
+
+            if (ofrmPopupMedicamento.DialogResult.Equals(DialogResult.OK)) {
+                listar();
+            }
         }
 
         private void toolStripEliminar_Click(object sender, EventArgs e) {
@@ -69,6 +77,10 @@ namespace MiSegundoServicioWCFConsumidoEnWindows {
                     MessageBox.Show("Ocurrio un error");
                 }
             }
+        }
+
+        private void toolStripSalir_Click(object sender, EventArgs e) {
+            this.Close();
         }
     }
 }
