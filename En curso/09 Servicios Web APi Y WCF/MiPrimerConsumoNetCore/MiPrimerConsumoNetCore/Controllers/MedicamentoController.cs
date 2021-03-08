@@ -37,17 +37,17 @@ namespace MiPrimerConsumoNetCore.Controllers {
             return Json(listaFormFarmaceutica);
         }
 
-        public async Task<JsonResult> recuperarMedicamento(int iiMedicamento) {
+        public async Task<JsonResult> recuperarMedicamento(int iidMedicamento) {
             MedicamentosClient oMedicamentosClient = new MedicamentosClient();
-            var medicamento = await oMedicamentosClient.recuperarMedicamentoAsync(iiMedicamento);
+            var medicamento = await oMedicamentosClient.recuperarMedicamentoAsync(iidMedicamento);
             return Json(medicamento);
         }
         ///////////
-        public async Task<int> agregaryYEditarMedicamento([FromBody] MedicamentoCLS oMedicamentoCLS) {
+        public async Task<int> agregaryYEditarMedicamento([FromBody] MedicamentoCLS omedicamentoCLS) {
             int rpta = 0;
             try {
                 MedicamentosClient oMedicamentoClient = new MedicamentosClient();
-                rpta= await oMedicamentoClient.registrarYActualizarMedicamentosAsync(oMedicamentoCLS);
+                rpta= await oMedicamentoClient.registrarYActualizarMedicamentosAsync(omedicamentoCLS);
             } catch (Exception) {
                 rpta=0;
             }

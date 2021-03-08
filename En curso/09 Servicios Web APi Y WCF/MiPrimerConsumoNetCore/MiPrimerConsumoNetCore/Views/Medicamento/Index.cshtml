@@ -134,12 +134,14 @@
         }
 
         function abrirModal(iidMedicamento) {
+            //console.log(iidMedicamento);
             Limpiar();
             if (iidMedicamento === 0) {
+                //console.log(iidMedicamento);
                 document.getElementById("lblTitulo").innerHTML = "Agregar Medicamento";
             }
             else {
-                //console.log(iidMedicamento);
+                console.log(iidMedicamento);
                 document.getElementById("lblTitulo").innerHTML = "Editar Medicamento";
 
                 fetch("Medicamento/recuperarMedicamento/?iidMedicamento=" + iidMedicamento)
