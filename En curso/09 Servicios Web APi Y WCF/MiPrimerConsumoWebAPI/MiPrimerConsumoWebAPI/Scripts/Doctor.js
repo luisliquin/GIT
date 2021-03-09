@@ -185,6 +185,7 @@ function Guardar() {
         } else {
             cboSexo = 2;
         }
+
         /*
         if (foto != null) {
             var nombreArchivo = document.getElementById("fupFoto").files[0].name;
