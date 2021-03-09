@@ -43,10 +43,14 @@ function llenarComboEspecialidad(res) {
 function previewImage() {
     var fupFoto = document.getElementById("fupFoto");
     fupFoto.onchange = function () {
+
         //Foto elegida
         var foto = fupFoto.files[0];
+        nombreArchivo = foto.name;
+
         //File reader leer la foto
         var file = new FileReader();
+
         file.onloadend = function () {
             document.getElementById("imgFoto").src = file.result;
         }
@@ -54,8 +58,6 @@ function previewImage() {
         file.readAsDataURL(foto);
     }
 }
-
-
 
 function listarDoctor() {
     fetch('http://192.168.0.3:8081/api/Doctor')
@@ -144,21 +146,26 @@ function AbrirModal(id) {
                 document.getElementById("txtTelefonoCelular").value = res.telefonoCelular;
                 document.getElementById("txtsueldo").value = res.sueldo;
                 //radio
-                var rdSexoMascu = document.getElementById("rdSexoMascu");
-                var rdSexoFeme = document.getElementById("rdSexoFeme");
-                if (res.iidSexo == 1) rdSexoMascu.checked = true;
-                    else rdSexoFeme.checked = true;
+                var rbSexoMascu = document.getElementById("rbSexoMascu");
+                var rbSexoFeme = document.getElementById("rbSexoFeme");
+                if (res.iidSexo == 1) {
+                    rbSexoMascu.checked = true;
+                } else {
+                    rbSexoFeme.checked = true;
+                }
                 //fechaContrato 2019-05-16T00:00:00
                 document.getElementById("txtFechaContrato").value = res.fechaContrato.substr(0, 10);
-                document.getElementById("imgFoto").src = res.foto;
-            })
+                document.getElementById("imgFoto").src = res.archivo;
+                nombreArchivo = res.nombre;
+            });
         document.getElementById("lblTitulo").innerHTML = "Editar doctor";
     }
 }
 
 var nombreArchivo;
 
-function guardar() {
+function Guardar() {
+    console.log("entre a guardar datos");
     if (confirm("Desea guardar los cambios?") == 1) {
         var idDoctor = document.getElementById("txtIdDoctor").value;
         var nombre = document.getElementById("txtNombre").value;
@@ -169,27 +176,27 @@ function guardar() {
         var email = document.getElementById("txtemail").value;
         var telefonoCelular = document.getElementById("txtTelefonoCelular").value;
         var sueldo = document.getElementById("txtsueldo").value;
-        var fechaContrato = document.getlementById("txtFechaContrato").value;
+        var fechaContrato = document.getElementById("txtFechaContrato").value;
         var foto = document.getElementById("imgFoto").src;
 
         var cboSexo;
-        if (document.getElementById("rdSexoMascu").checked == 1) {
+        if (document.getElementById("rbSexoMascu").checked == 1) {
             cboSexo = 1;
         } else {
-            cboSexo = 2
+            cboSexo = 2;
         }
-
+        /*
         if (foto != null) {
-            nombreArchivo = document.getElementById("fupFoto").files[0].name;
-        }
+            var nombreArchivo = document.getElementById("fupFoto").files[0].name;
+        }*/
 
-        fetch('http://192.168.0.3:8081/api/Doctor', {
+        fetch("http://192.168.0.3:8081/api/Doctor", {
             headers: {
                 'Content-Type': 'application/json'
             },
             method: 'POST',
             body: JSON.stringify({
-                "IIDDOCTOR": iidDoctor,
+                "IIDDOCTOR": idDoctor,
                 "NOMBRE": nombre,
                 "APPATERNO": apPaterno,
                 "APMATERNO": apMaterno,
@@ -197,21 +204,24 @@ function guardar() {
                 "IIDESPECIALIDAD": idEspecialidad,
                 "EMAIL": email,
                 "TELEFONOCELULAR": telefonoCelular,
+                "IIDSEXO": cboSexo,
                 "SUELDO": sueldo,
                 "FECHACONTRATO": fechaContrato,
+                "ARCHIVO": foto,
                 "NOMBREARCHIVO": nombreArchivo,
-                "ARCHIVO": foto, 
                 "BHABILITADO": 1
-        })
+            })
         }).then(res => res.json())
             .then(res => {
-                if (res == 1) {
-                    alert("Se ejecuto corectamente");
-                    listarDoctor();
-                    document.getElementById("btnClose").click();
-                } else {
-                    alert("Ocurrio un error");
-                }
+                alert("Se ejecuto corectamente");
+                listarDoctor();
+                document.getElementById("btnClose").click();
             })
+            .catch((error) => {
+                alert("Hubo un error");
+                console.log(error);
+                listarDoctor();
+                document.getElementById("btnClose").click();
+            });
     }
 }
