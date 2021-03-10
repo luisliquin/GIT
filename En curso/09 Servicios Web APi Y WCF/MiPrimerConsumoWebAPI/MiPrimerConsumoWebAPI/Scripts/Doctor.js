@@ -10,9 +10,28 @@ function listarClinica() {
     fetch("http://192.168.0.3:8081/api/Clinica")
         .then(res => res.json())
         .then(res => {
-//          console.log(res);
+       //console.log(res);
             llenarComboClinica(res)
         })
+}
+
+function datosObligatorios() {
+    var obligatorios = document.getElementsByClassName("obligatorio");
+    var nobligatorios = obligatorios.length;
+    var obligatorio;
+    var exito = true;
+
+    //Abrimos
+    var contenido = "<ol style='color:red'>"
+    for (var i = 0; i > nobligatorios; i++) {
+        if (obligatorios[i].value == "") {
+            exito = false;
+            contenido += "<li>" + obligatorio[i].name + "es obligatorio</li>";
+        }
+    }
+    //Cerramos
+    contenido += "</ol>"
+    return {exito, contenido}
 }
 
 function llenarComboClinica(res) {
@@ -100,6 +119,7 @@ function crearListado(res) {
     contenido += "</table>";
 
     document.getElementById("divTabla").innerHTML = contenido;
+    console.log(contenido);
 }
 
 function Eliminar(iidDoctor) {
@@ -167,6 +187,15 @@ var nombreArchivo;
 function Guardar() {
     console.log("entre a guardar datos");
     if (confirm("Desea guardar los cambios?") == 1) {
+
+        var objeto = datosObligatorios();
+        if (objeto.exito == false) {
+            var contenido = objeto.contenido;
+            document.getElementById("divError").innerHTML = contenido;
+            return
+        }
+
+        document.getElementById("divError").innerHTML = "";
         var idDoctor = document.getElementById("txtIdDoctor").value;
         var nombre = document.getElementById("txtNombre").value;
         var apPaterno = document.getElementById("txtApPaterno").value;
@@ -185,10 +214,6 @@ function Guardar() {
         } else {
             cboSexo = 2;
         }
-        /*
-        if (foto != null) {
-            var nombreArchivo = document.getElementById("fupFoto").files[0].name;
-        }*/
 
         fetch("http://192.168.0.3:8081/api/Doctor", {
             headers: {
@@ -213,15 +238,15 @@ function Guardar() {
             })
         }).then(res => res.json())
             .then(res => {
-                alert("Se ejecuto corectamente");
-                listarDoctor();
-                document.getElementById("btnClose").click();
-            })
-            .catch((error) => {
-                alert("Hubo un error");
-                console.log(error);
-                listarDoctor();
-                document.getElementById("btnClose").click();
+                if (res == 1) {
+                    alert("Se ejecuto corectamente");
+                    listarDoctor();
+                    document.getElementById("btnClose").click();
+                } else {
+                    alert("Ocurrio un error");
+                    listarDoctor();
+                    document.getElementById("btnClose").click();
+                }
             });
     }
 }

@@ -28,32 +28,32 @@
 
                 <div class="form-group">
                     <label>Id Doctor</label>
-                    <input class="form-control limpiar" type="text" id="txtIdDoctor" readonly />
+                    <input name="Id Doctor" class="form-control limpiar" type="text" id="txtIdDoctor" readonly />
                 </div>
 
                 <div class="form-group">
                     <label>Nombre</label>
-                    <input type="text" id="txtNombre" class="form-control limpiar" />
+                    <input name="Nombre Doctor" type="text" id="txtNombre" class="form-control limpiar obligatorio" />
                 </div>
 
                 <div class="form-group">
                     <label>Apellido Paterno</label>
-                    <input type="text" id="txtApPaterno" class="form-control limpiar" />
+                    <input name="Apellido Paterno" type="text" id="txtApPaterno" class="form-control limpiar obligatorio" />
                 </div>
 
                 <div class="form-group">
                     <label>Apellido Materno</label>
-                    <input type="text" id="txtApMaterno" class="form-control limpiar" />
+                    <input name="Apellido Materno" type="text" id="txtApMaterno" class="form-control limpiar obligatorio" />
                 </div>
 
                 <div class="form-group">
                     <label>Nombre clinica</label>
-                    <select id="cboClinica" class="form-control limpiar"></select>
+                    <select name="Clinica" id="cboClinica" class="form-control limpiar obligatorio"></select>
                 </div>
 
                 <div class="form-group">
                     <label>Nombre especialidad</label>
-                    <select id="cboEspecialidad" class="form-control limpiar"></select>
+                    <select name="Especialidad" id="cboEspecialidad" class="form-control limpiar obligatorio"></select>
                 </div>
 
                 <div class="form-group">
@@ -76,12 +76,12 @@
 
                 <div class="form-group">
                     <label>Sueldo</label>
-                    <input type="text" id="txtsueldo" class="form-control limpiar" />
+                    <input name="Sueldo" type="text" id="txtsueldo" class="form-control limpiar obligatorio" />
                 </div>
 
                 <div class="form-group">
                     <label>Fecha Contrato</label>
-                    <input type="date" id="txtFechaContrato" class="form-control limpiar" />
+                    <input name="Fecha Contrato" type="date" id="txtFechaContrato" class="form-control limpiar obligatorio" />
                 </div>
 
                 <div class="form-group">
@@ -95,6 +95,10 @@
                 <button type="button" onclick="Guardar()" class="btn btn-primary">Aceptar</button>
                 <button id="btnClose" type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
             </div>
+
+            <div id="divError">
+            </div>
+
         </div>
     </div>
 </div>
