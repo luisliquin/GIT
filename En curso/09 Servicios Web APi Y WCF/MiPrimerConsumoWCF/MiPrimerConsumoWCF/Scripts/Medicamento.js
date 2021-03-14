@@ -11,6 +11,17 @@ function listarFormaFarmaceutica() {
         });
 }
 
+function llenarCombo(res) {
+    var contenido = "";
+    contenido += "<option value=''>--Seleccione--</option>"
+
+    for (var i = 0; i < res.length; i++) {
+        contenido += "<option value='" + res[i].iidformafarmaceutica + "'>" + res[i].nombreFormaFarmaceutica + "</option>";
+        // console.log(contenido);
+    }
+    document.getElementById("cboFormaFarmaceutica").innerHTML = contenido;
+}
+
 function filtrarDatos() {
     var nombreMedicamento = document.getElementById("txtBuscarNombreMedicamento").value;
 
@@ -25,16 +36,6 @@ function filtrarDatos() {
     }
 }
 
-function llenarCombo(res) {
-    var contenido = "";
-    contenido += "<option value=''>--Seleccione--</option>"
-
-    for (var i = 0; i < res.length; i++) {
-        contenido += "<option value='" + res[i].iidformafarmaceutica + "'>" + res[i].nombreFormaFarmaceutica + "</option>";
-       // console.log(contenido);
-    }
-    document.getElementById("cboFormaFarmaceutica").innerHTML = contenido;
-}
 
 
 function Limpiar() {
