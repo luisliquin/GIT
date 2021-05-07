@@ -93,3 +93,6 @@ E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimeraWebAPI\MiPrimeraWebAPI\obj\D
 E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimeraWebAPI\MiPrimeraWebAPI\obj\Debug\MiPrimeraWebAPI.csproj.CopyComplete
 E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimeraWebAPI\MiPrimeraWebAPI\obj\Debug\MiPrimeraWebAPI.dll
 E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimeraWebAPI\MiPrimeraWebAPI\obj\Debug\MiPrimeraWebAPI.pdb
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimeraWebAPI\MiPrimeraWebAPI\bin\System.Web.Cors.dll
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimeraWebAPI\MiPrimeraWebAPI\bin\System.Web.Http.Cors.dll
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimeraWebAPI\MiPrimeraWebAPI\bin\System.Web.Http.Cors.xml
