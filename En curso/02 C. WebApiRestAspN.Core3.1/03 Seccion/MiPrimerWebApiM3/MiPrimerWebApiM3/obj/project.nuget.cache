@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4U1/K4dC5Q1QzGws0Yj61j8xuuWFkSil6X9poMtAJ2lYif/QtrEtIHdxGIJ1whIVubETHK18b/8FO6fjr01C7A==",
+  "dgSpecHash": "I5CBPCjurv9VaBfDmYYKPmM9840DdKmyT5wkF+EaqxNa897045xyr6BoOjLt+qAmu8m6yNioIbkfC0vbCfvfGA==",
   "success": true,
-  "projectFilePath": "E:\\GIT\\06 C. WebApiRestAspN.Core3.1\\03 Seccion\\MiPrimerWebApiM3\\MiPrimerWebApiM3\\MiPrimerWebApiM3.csproj",
+  "projectFilePath": "E:\\GIT\\En curso\\02 C. WebApiRestAspN.Core3.1\\03 Seccion\\MiPrimerWebApiM3\\MiPrimerWebApiM3\\MiPrimerWebApiM3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Luis\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
     "C:\\Users\\Luis\\.nuget\\packages\\microsoft.data.sqlclient\\1.0.19249.1\\microsoft.data.sqlclient.1.0.19249.1.nupkg.sha512",

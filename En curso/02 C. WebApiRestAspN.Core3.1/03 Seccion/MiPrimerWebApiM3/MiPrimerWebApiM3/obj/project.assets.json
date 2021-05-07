@@ -4916,11 +4916,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\GIT\\06 C. WebApiRestAspN.Core3.1\\03 Seccion\\MiPrimerWebApiM3\\MiPrimerWebApiM3\\MiPrimerWebApiM3.csproj",
+      "projectUniqueName": "E:\\GIT\\En curso\\02 C. WebApiRestAspN.Core3.1\\03 Seccion\\MiPrimerWebApiM3\\MiPrimerWebApiM3\\MiPrimerWebApiM3.csproj",
       "projectName": "MiPrimerWebApiM3",
-      "projectPath": "E:\\GIT\\06 C. WebApiRestAspN.Core3.1\\03 Seccion\\MiPrimerWebApiM3\\MiPrimerWebApiM3\\MiPrimerWebApiM3.csproj",
+      "projectPath": "E:\\GIT\\En curso\\02 C. WebApiRestAspN.Core3.1\\03 Seccion\\MiPrimerWebApiM3\\MiPrimerWebApiM3\\MiPrimerWebApiM3.csproj",
       "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
-      "outputPath": "E:\\GIT\\06 C. WebApiRestAspN.Core3.1\\03 Seccion\\MiPrimerWebApiM3\\MiPrimerWebApiM3\\obj\\",
+      "outputPath": "E:\\GIT\\En curso\\02 C. WebApiRestAspN.Core3.1\\03 Seccion\\MiPrimerWebApiM3\\MiPrimerWebApiM3\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4979,7 +4979,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
