@@ -83,4 +83,4 @@ E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimerConsumoWebAPI\MiPrimerConsumo
 E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimerConsumoWebAPI\MiPrimerConsumoWebAPI\obj\Debug\MiPrimerConsumoWebAPI.csproj.CopyComplete
 E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimerConsumoWebAPI\MiPrimerConsumoWebAPI\obj\Debug\MiPrimerConsumoWebAPI.dll
 E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimerConsumoWebAPI\MiPrimerConsumoWebAPI\obj\Debug\MiPrimerConsumoWebAPI.pdb
-E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimerConsumoWebAPI\MiPrimerConsumoWebAPI\obj\Debug\MiPrimerConsumoWebAPI.csprojAssemblyReference.cache
+E:\GIT\En curso\09 Servicios Web APi Y WCF\MiPrimerConsumoWebAPI\MiPrimerConsumoWebAPI\obj\Debug\MiPrimerConsumoWebAPI.csproj.AssemblyReference.cache

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YyTIb2uAiN+9z2OULHFXQJNr+S0D+oRFT/7xZQE800jso4FA9/FMzt3NdwSkxBRI9RxiUyVQPXCcJSgcwz8BEg==",
+  "success": true,
+  "projectFilePath": "E:\\GIT\\En curso\\10 NETCore3_VueJS\\Seccion05\\KodotiSpaSolution\\src\\Model.DTOs\\Model.DTOs.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Luis\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\Luis\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\Luis\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

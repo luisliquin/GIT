@@ -1,0 +1,9 @@
+C:\Users\Luis\Desktop\kodoti-vue-spa-project-net-core-master\src\Model.DTOs\bin\Debug\netcoreapp3.0\Model.DTOs.deps.json
+C:\Users\Luis\Desktop\kodoti-vue-spa-project-net-core-master\src\Model.DTOs\bin\Debug\netcoreapp3.0\Model.DTOs.dll
+C:\Users\Luis\Desktop\kodoti-vue-spa-project-net-core-master\src\Model.DTOs\bin\Debug\netcoreapp3.0\Model.DTOs.pdb
+C:\Users\Luis\Desktop\kodoti-vue-spa-project-net-core-master\src\Model.DTOs\obj\Debug\netcoreapp3.0\Model.DTOs.csproj.AssemblyReference.cache
+C:\Users\Luis\Desktop\kodoti-vue-spa-project-net-core-master\src\Model.DTOs\obj\Debug\netcoreapp3.0\Model.DTOs.AssemblyInfoInputs.cache
+C:\Users\Luis\Desktop\kodoti-vue-spa-project-net-core-master\src\Model.DTOs\obj\Debug\netcoreapp3.0\Model.DTOs.AssemblyInfo.cs
+C:\Users\Luis\Desktop\kodoti-vue-spa-project-net-core-master\src\Model.DTOs\obj\Debug\netcoreapp3.0\Model.DTOs.csproj.CoreCompileInputs.cache
+C:\Users\Luis\Desktop\kodoti-vue-spa-project-net-core-master\src\Model.DTOs\obj\Debug\netcoreapp3.0\Model.DTOs.dll
+C:\Users\Luis\Desktop\kodoti-vue-spa-project-net-core-master\src\Model.DTOs\obj\Debug\netcoreapp3.0\Model.DTOs.pdb
