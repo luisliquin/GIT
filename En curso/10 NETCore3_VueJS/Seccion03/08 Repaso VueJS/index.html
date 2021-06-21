@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma-rtl.min.css">
+    <title>VueJs Repaso</title>
+</head>
+<body>
+    <section id="app" class="hero is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">{{company.releaseDate}} {{company.name}}</h1>
+                <h2 class="subtitle">{{company.description}}</h2>
+                <p><b>kodoti status</b> : {{company.published}}</p>
+
+                <button @click="doSomething" class="button is-prmary">Dame click</button>
+            </div>
+
+            <hr>
+
+            <form @submit.prevent="addCourse">
+                <div class="field">
+                    <label>Curso</label>
+                    <input required v-model="newCourse.name" type="text" class="input">
+                </div>
+                <div class="field">
+                    <label>Precio</label>
+                    <input required v-model="newCourse.price" type="text" class="input">
+                </div>
+                <div class="field">
+                    <button type="submit" class="button is-primary">Agregar</button>
+                </div>
+            </form>
+
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Curso</th>
+                    <th style="width: 150px;">Precio</th>
+                    <th style="width: 150px;">Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr v-for="item in courses">
+                    <td>{{item.name}}</td>
+                    <td>US$ {{item.price}}</td>
+                    <td>
+                        <input v-model="item.published" type="checkbox">
+                      <!--  <span v-if="item.published" class="tag is-primary">Publicado</span>
+                        <span v-else="!item.published" class="tag is-danger">Sin Publicar</span>-->
+                    </td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+    </section>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+<script>
+    const app = new Vue({
+        el: "#app",
+        data:{
+            company:{
+            name: 'KODOTI',
+            description: 'Aprende mas, haciendo pequeños proyectos...',
+            releaseDate: 2019,
+            published: true
+            },
+        courses:[
+            {name: 'ASP NET Core 3', price: 13.99, published: true},
+            {name: 'VueJS', price: 15.99, published: true},
+            {name: 'Entity framework core', price: 14.99, published: true},
+            {name: 'Javascript developer', price: 12.99, published: true},
+            {name: 'NodeJS', price: 15.99, published: false}
+            ],
+        newCourse:{
+            name: null,
+            price: null
+        }   
+        },
+        methods:{
+            doSomething(){
+                alert(this.company.name + ' es la mejor plataforma de todas');
+            },
+            addCourse(){
+                this.courses.push({
+                    name: this.newCourse.name,
+                    price: this.newCourse.price,
+                    published:false
+                });
+                this.newCourse.name = null;
+                this.newCourse.price = null;
+            }
+        }
+    });
+</script>
+</body>
+</html>
