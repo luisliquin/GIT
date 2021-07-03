@@ -1,0 +1,10 @@
+Proceso iniciado
+Proceso finalizado
+Proceso iniciado
+Proceso en ejecucion:03/07/2021 12:35:41
+Proceso en ejecucion:03/07/2021 12:35:46
+Proceso en ejecucion:03/07/2021 12:35:51
+Proceso en ejecucion:03/07/2021 12:35:56
+Proceso en ejecucion:03/07/2021 12:36:01
+Proceso en ejecucion:03/07/2021 12:36:06
+Proceso finalizado
