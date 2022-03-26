@@ -1,7 +1,0 @@
-E:\GIT\certificacion c#\8-39\C_Stack\C_Stack\bin\Debug\C_Stack.exe.config
-E:\GIT\certificacion c#\8-39\C_Stack\C_Stack\bin\Debug\C_Stack.exe
-E:\GIT\certificacion c#\8-39\C_Stack\C_Stack\bin\Debug\C_Stack.pdb
-E:\GIT\certificacion c#\8-39\C_Stack\C_Stack\obj\Debug\C_Stack.csproj.CoreCompileInputs.cache
-E:\GIT\certificacion c#\8-39\C_Stack\C_Stack\obj\Debug\C_Stack.exe
-E:\GIT\certificacion c#\8-39\C_Stack\C_Stack\obj\Debug\C_Stack.pdb
-E:\GIT\certificacion c#\8-39\C_Stack\C_Stack\obj\Debug\C_Stack.csprojAssemblyReference.cache

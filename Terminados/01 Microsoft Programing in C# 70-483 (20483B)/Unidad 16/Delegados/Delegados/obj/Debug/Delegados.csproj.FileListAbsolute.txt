@@ -1,7 +1,0 @@
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Delegados\Delegados\bin\Debug\Delegados.exe.config
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Delegados\Delegados\bin\Debug\Delegados.exe
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Delegados\Delegados\bin\Debug\Delegados.pdb
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Delegados\Delegados\obj\Debug\Delegados.csprojAssemblyReference.cache
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Delegados\Delegados\obj\Debug\Delegados.csproj.CoreCompileInputs.cache
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Delegados\Delegados\obj\Debug\Delegados.exe
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 16\Delegados\Delegados\obj\Debug\Delegados.pdb

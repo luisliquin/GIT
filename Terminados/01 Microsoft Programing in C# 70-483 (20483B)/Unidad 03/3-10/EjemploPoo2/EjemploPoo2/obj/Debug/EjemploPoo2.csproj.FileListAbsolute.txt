@@ -1,7 +1,0 @@
-C:\Users\Luis\Desktop\proyecto udemy\3-10\EjemploPoo2\EjemploPoo2\bin\Debug\EjemploPoo2.exe.config
-C:\Users\Luis\Desktop\proyecto udemy\3-10\EjemploPoo2\EjemploPoo2\bin\Debug\EjemploPoo2.exe
-C:\Users\Luis\Desktop\proyecto udemy\3-10\EjemploPoo2\EjemploPoo2\bin\Debug\EjemploPoo2.pdb
-C:\Users\Luis\Desktop\proyecto udemy\3-10\EjemploPoo2\EjemploPoo2\obj\Debug\EjemploPoo2.csprojAssemblyReference.cache
-C:\Users\Luis\Desktop\proyecto udemy\3-10\EjemploPoo2\EjemploPoo2\obj\Debug\EjemploPoo2.csproj.CoreCompileInputs.cache
-C:\Users\Luis\Desktop\proyecto udemy\3-10\EjemploPoo2\EjemploPoo2\obj\Debug\EjemploPoo2.exe
-C:\Users\Luis\Desktop\proyecto udemy\3-10\EjemploPoo2\EjemploPoo2\obj\Debug\EjemploPoo2.pdb

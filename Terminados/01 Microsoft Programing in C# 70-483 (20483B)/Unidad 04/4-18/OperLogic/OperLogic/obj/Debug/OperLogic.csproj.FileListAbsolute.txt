@@ -1,7 +1,0 @@
-C:\Users\Luis\Desktop\proyecto udemy\4-18\OperLogic\OperLogic\bin\Debug\OperLogic.exe.config
-C:\Users\Luis\Desktop\proyecto udemy\4-18\OperLogic\OperLogic\bin\Debug\OperLogic.exe
-C:\Users\Luis\Desktop\proyecto udemy\4-18\OperLogic\OperLogic\bin\Debug\OperLogic.pdb
-C:\Users\Luis\Desktop\proyecto udemy\4-18\OperLogic\OperLogic\obj\Debug\OperLogic.csprojAssemblyReference.cache
-C:\Users\Luis\Desktop\proyecto udemy\4-18\OperLogic\OperLogic\obj\Debug\OperLogic.csproj.CoreCompileInputs.cache
-C:\Users\Luis\Desktop\proyecto udemy\4-18\OperLogic\OperLogic\obj\Debug\OperLogic.exe
-C:\Users\Luis\Desktop\proyecto udemy\4-18\OperLogic\OperLogic\obj\Debug\OperLogic.pdb

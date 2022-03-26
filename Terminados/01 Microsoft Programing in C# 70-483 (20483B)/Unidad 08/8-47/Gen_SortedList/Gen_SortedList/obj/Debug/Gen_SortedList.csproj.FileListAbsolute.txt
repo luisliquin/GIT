@@ -1,7 +1,0 @@
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-47\Gen_SortedList\Gen_SortedList\bin\Debug\Gen_SortedList.exe.config
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-47\Gen_SortedList\Gen_SortedList\bin\Debug\Gen_SortedList.exe
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-47\Gen_SortedList\Gen_SortedList\bin\Debug\Gen_SortedList.pdb
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-47\Gen_SortedList\Gen_SortedList\obj\Debug\Gen_SortedList.csprojAssemblyReference.cache
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-47\Gen_SortedList\Gen_SortedList\obj\Debug\Gen_SortedList.csproj.CoreCompileInputs.cache
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-47\Gen_SortedList\Gen_SortedList\obj\Debug\Gen_SortedList.exe
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 8\8-47\Gen_SortedList\Gen_SortedList\obj\Debug\Gen_SortedList.pdb

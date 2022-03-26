@@ -1,7 +1,0 @@
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-41\C_Queue\C_Queue\bin\Debug\C_Queue.exe.config
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-41\C_Queue\C_Queue\bin\Debug\C_Queue.exe
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-41\C_Queue\C_Queue\bin\Debug\C_Queue.pdb
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-41\C_Queue\C_Queue\obj\Debug\C_Queue.csprojAssemblyReference.cache
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-41\C_Queue\C_Queue\obj\Debug\C_Queue.csproj.CoreCompileInputs.cache
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-41\C_Queue\C_Queue\obj\Debug\C_Queue.exe
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-41\C_Queue\C_Queue\obj\Debug\C_Queue.pdb

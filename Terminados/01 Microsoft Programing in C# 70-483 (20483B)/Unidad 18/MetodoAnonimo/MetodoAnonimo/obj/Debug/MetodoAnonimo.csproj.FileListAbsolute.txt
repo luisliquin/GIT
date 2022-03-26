@@ -1,7 +1,0 @@
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 18\MetodoAnonimo\MetodoAnonimo\bin\Debug\MetodoAnonimo.exe.config
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 18\MetodoAnonimo\MetodoAnonimo\bin\Debug\MetodoAnonimo.exe
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 18\MetodoAnonimo\MetodoAnonimo\bin\Debug\MetodoAnonimo.pdb
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 18\MetodoAnonimo\MetodoAnonimo\obj\Debug\MetodoAnonimo.csprojAssemblyReference.cache
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 18\MetodoAnonimo\MetodoAnonimo\obj\Debug\MetodoAnonimo.csproj.CoreCompileInputs.cache
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 18\MetodoAnonimo\MetodoAnonimo\obj\Debug\MetodoAnonimo.exe
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 18\MetodoAnonimo\MetodoAnonimo\obj\Debug\MetodoAnonimo.pdb

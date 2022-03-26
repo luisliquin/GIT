@@ -1,6 +1,0 @@
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-43\Diccionarios\Diccionarios\bin\Debug\Diccionarios.exe.config
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-43\Diccionarios\Diccionarios\bin\Debug\Diccionarios.exe
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-43\Diccionarios\Diccionarios\bin\Debug\Diccionarios.pdb
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-43\Diccionarios\Diccionarios\obj\Debug\Diccionarios.csproj.CoreCompileInputs.cache
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-43\Diccionarios\Diccionarios\obj\Debug\Diccionarios.exe
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-43\Diccionarios\Diccionarios\obj\Debug\Diccionarios.pdb

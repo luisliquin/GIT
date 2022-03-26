@@ -1,7 +1,0 @@
-C:\Users\Luis\Desktop\proyecto udemy\3-13\TipoDatos\TipoDatos\bin\Debug\TipoDatos.exe.config
-C:\Users\Luis\Desktop\proyecto udemy\3-13\TipoDatos\TipoDatos\bin\Debug\TipoDatos.exe
-C:\Users\Luis\Desktop\proyecto udemy\3-13\TipoDatos\TipoDatos\bin\Debug\TipoDatos.pdb
-C:\Users\Luis\Desktop\proyecto udemy\3-13\TipoDatos\TipoDatos\obj\Debug\TipoDatos.csprojAssemblyReference.cache
-C:\Users\Luis\Desktop\proyecto udemy\3-13\TipoDatos\TipoDatos\obj\Debug\TipoDatos.csproj.CoreCompileInputs.cache
-C:\Users\Luis\Desktop\proyecto udemy\3-13\TipoDatos\TipoDatos\obj\Debug\TipoDatos.exe
-C:\Users\Luis\Desktop\proyecto udemy\3-13\TipoDatos\TipoDatos\obj\Debug\TipoDatos.pdb

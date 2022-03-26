@@ -1,5 +1,0 @@
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Libreria\bin\Debug\Libreria.dll
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Libreria\bin\Debug\Libreria.pdb
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Libreria\obj\Debug\Libreria.csproj.CoreCompileInputs.cache
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Libreria\obj\Debug\Libreria.dll
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\Unidad 14\Ensamblado\Libreria\obj\Debug\Libreria.pdb

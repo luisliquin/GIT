@@ -1,3 +1,0 @@
-http://192.168.0.3:8081/IMedicamentos.svc?wsdl
-
-https://192.168.0.3:8082/IMedicamentos.svc?wsdl

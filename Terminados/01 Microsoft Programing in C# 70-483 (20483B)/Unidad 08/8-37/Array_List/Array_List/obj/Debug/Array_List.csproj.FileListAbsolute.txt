@@ -1,7 +1,0 @@
-E:\GIT\certificacion c#\8-37\Array_List\Array_List\bin\Debug\Array_List.exe.config
-E:\GIT\certificacion c#\8-37\Array_List\Array_List\bin\Debug\Array_List.exe
-E:\GIT\certificacion c#\8-37\Array_List\Array_List\bin\Debug\Array_List.pdb
-E:\GIT\certificacion c#\8-37\Array_List\Array_List\obj\Debug\Array_List.csprojAssemblyReference.cache
-E:\GIT\certificacion c#\8-37\Array_List\Array_List\obj\Debug\Array_List.csproj.CoreCompileInputs.cache
-E:\GIT\certificacion c#\8-37\Array_List\Array_List\obj\Debug\Array_List.exe
-E:\GIT\certificacion c#\8-37\Array_List\Array_List\obj\Debug\Array_List.pdb

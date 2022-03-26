@@ -1,7 +1,0 @@
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-45\Gen_List\Gen_List\bin\Debug\Gen_List.exe.config
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-45\Gen_List\Gen_List\bin\Debug\Gen_List.exe
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-45\Gen_List\Gen_List\bin\Debug\Gen_List.pdb
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-45\Gen_List\Gen_List\obj\Debug\Gen_List.csprojAssemblyReference.cache
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-45\Gen_List\Gen_List\obj\Debug\Gen_List.csproj.CoreCompileInputs.cache
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-45\Gen_List\Gen_List\obj\Debug\Gen_List.exe
-E:\GIT\Microsoft Programing in C# 70-483 (20483B)\8-45\Gen_List\Gen_List\obj\Debug\Gen_List.pdb
